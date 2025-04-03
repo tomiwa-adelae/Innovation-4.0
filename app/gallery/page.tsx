@@ -1,6 +1,15 @@
 import Gallery from "@/components/Gallery";
 import Showcase from "@/components/shared/Showcase";
 
+import type { Metadata } from "next";
+export const metadata: Metadata = {
+	title: "Innovation 4.0 Gallery | Experience the Moments",
+	description:
+		"Relive the excitement of past Innovation conferences through our photo and video gallery.",
+	keywords:
+		" event photos, past events, conference highlights, networking moments, business growth, conference, startup, future trends, john ogunjide, tomiwa, tomiwa adelae, innovation 3.0, innovation 4.0, innovation conference, conferences, conference, cornerstone international foundation, foundation, bill gate foundations, alternative to gates foundations, gates foundations, ACU, Ajayi Crowther University",
+};
+
 const page = () => {
 	return (
 		<div>
