@@ -24,15 +24,17 @@ import {
 	SelectTrigger,
 	SelectValue,
 } from "../ui/select";
-import { hearAboutUs, subjects } from "@/constants";
+import { hearAboutUs } from "@/constants";
 import { useState } from "react";
-// import { contactUs } from "@/lib/actions/contact.actions";
 import { RegistrationFormSchema } from "@/lib/validations";
 import { useToast } from "@/hooks/use-toast";
 import { Spotlight } from "../ui/spotlight-new";
 import SectionHeader from "../shared/SectionHeader";
+import { registerUser } from "@/lib/actions/registered.user.actions";
+import { useRouter } from "next/navigation";
 
 const RegistrationForm = () => {
+	const router = useRouter();
 	const { toast } = useToast();
 	const [value, setValue] = useState<string | undefined>(undefined);
 	const form = useForm<z.infer<typeof RegistrationFormSchema>>({
@@ -59,19 +61,20 @@ const RegistrationForm = () => {
 				hearAboutUs: data.hearAboutUs,
 				organization: data.organization,
 			};
-			// const res = await contactUs(user);
+			const res = await registerUser(user);
 
-			// if (res?.status == 400)
-			// 	return toast({
-			// 		title: "Error!",
-			// 		description: res?.message,
-			// 		variant: "destructive",
-			// 	});
+			if (res?.status == 400)
+				return toast({
+					title: "Error!",
+					description: res?.message,
+					variant: "destructive",
+				});
 
-			// toast({
-			// 	title: "Success!",
-			// 	description: res?.message,
-			// });
+			toast({
+				title: "Success!",
+				description: res?.message,
+			});
+			router.push(`/success-registration?id=${res?.registeredUser?._id}`);
 		} catch (error) {
 			toast({
 				title: "Error!",

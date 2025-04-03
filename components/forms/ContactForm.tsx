@@ -30,8 +30,11 @@ import { Spotlight } from "../ui/spotlight-new";
 // import { contactUs } from "@/lib/actions/contact.actions";
 import { ContactFormSchema } from "@/lib/validations";
 import { useToast } from "@/hooks/use-toast";
+import { contactUs } from "@/lib/actions/contact.actions";
+import { useRouter } from "next/navigation";
 
 export function ContactForm() {
+	const router = useRouter();
 	const { toast } = useToast();
 	const [value, setValue] = useState<string | undefined>(undefined);
 	const form = useForm<z.infer<typeof ContactFormSchema>>({
@@ -47,26 +50,27 @@ export function ContactForm() {
 
 	async function onSubmit(data: z.infer<typeof ContactFormSchema>) {
 		try {
-			const user = {
+			const contact = {
 				name: data.name,
 				email: data.email,
 				phoneNumber: value,
 				subject: data.subject,
 				message: data.message,
 			};
-			// const res = await contactUs(user);
+			const res = await contactUs(contact);
 
-			// if (res?.status == 400)
-			// 	return toast({
-			// 		title: "Error!",
-			// 		description: res?.message,
-			// 		variant: "destructive",
-			// 	});
+			if (res?.status == 400)
+				return toast({
+					title: "Error!",
+					description: res?.message,
+					variant: "destructive",
+				});
 
-			// toast({
-			// 	title: "Success!",
-			// 	description: res?.message,
-			// });
+			toast({
+				title: "Success!",
+				description: res?.message,
+			});
+			router.push(`/success-contact?id=${res?.contact?._id}`);
 		} catch (error) {
 			toast({
 				title: "Error!",

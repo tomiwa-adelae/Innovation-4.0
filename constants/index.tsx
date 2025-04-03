@@ -242,3 +242,5 @@ export const subjects = [
 ];
 
 export const hearAboutUs = ["Social Media", "Friend", "Website", "Others"];
+
+export const websiteURL = "www.innovationconference.com.ng";

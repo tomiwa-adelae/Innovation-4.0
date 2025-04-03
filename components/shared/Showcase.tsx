@@ -1,21 +1,21 @@
 import Link from "next/link";
 import { Button } from "../ui/button";
-import Image from "next/image";
 
 const Showcase = ({
 	bgImage,
 	headline,
 	description,
 	cta,
-	image,
 	extras,
+	fullScreen = false,
 }: {
 	bgImage: string;
-	headline: string;
+	headline: string | React.ReactNode;
 	description: string;
 	cta?: any;
 	image?: string;
 	extras?: string[];
+	fullScreen?: boolean;
 }) => {
 	return (
 		<div
@@ -23,7 +23,7 @@ const Showcase = ({
 				backgroundImage: `url(${bgImage})`,
 			}}
 			className={`flex items-end justify-center bg-no-repeat bg-center bg-cover relative text-white ${
-				!image && "min-h-[85vh]"
+				fullScreen ? "min-h-[100vh]" : "min-h-[85vh]"
 			}`}
 		>
 			<div className={`grid container`}>
