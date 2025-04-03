@@ -46,7 +46,7 @@ export const AnimatedTestimonials = ({
 	};
 	return (
 		<div className="antialiased lg:col-span-2 mt-16">
-			<div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+			<div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-20">
 				<div className="lg:col-span-2">
 					<div className="relative h-80 w-full">
 						<AnimatePresence>

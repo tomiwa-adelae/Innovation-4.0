@@ -1,3 +1,4 @@
+import Agenda from "@/components/Agenda";
 import Countdown from "@/components/Countdown";
 import Gallery from "@/components/Gallery";
 import Innovation4 from "@/components/Innovation4";
@@ -28,8 +29,14 @@ const page = () => {
 			/>
 			<Countdown />
 			<Innovation4 />
-			<Gallery />
+			<Gallery
+				title={"Snapshots from Innovation 3.0 – Get Ready for 4.0!"}
+				description={
+					"Innovation 4.0 is all about connection, learning, and transforming. Here’s a glimpse of what you can expect—moments of inspiration, collaboration, and innovation from past editions that will shape this year’s event. Your journey to unlocking your full potential starts here"
+				}
+			/>
 			<Speakers />
+			<Agenda />
 			<Sponsors />
 			<Testimonials />
 			<HaveEnquiry />

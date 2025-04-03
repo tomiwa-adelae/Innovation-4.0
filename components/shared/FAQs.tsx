@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import { faqs } from "@/constants";
 import { Spotlight } from "../ui/spotlight-new";
+import CTABox from "./CTABox";
 
 const FAQs = () => {
 	return (
@@ -22,6 +23,11 @@ const FAQs = () => {
 						</AccordionItem>
 					))}
 				</Accordion>
+				<CTABox
+					title="Need Help? Contact Us!"
+					label="Contact us"
+					slug="/contact"
+				/>
 			</div>
 		</div>
 	);

@@ -4,7 +4,13 @@ import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-const ImageLibrary = ({ images }: any) => {
+const ImageLibrary = ({
+	images,
+	number = 3,
+}: {
+	images: any;
+	number?: number;
+}) => {
 	const [open, setOpen] = useState(false);
 	const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -15,7 +21,15 @@ const ImageLibrary = ({ images }: any) => {
 
 	return (
 		<div>
-			<div className="grid grid-cols-3 gap-4">
+			<div
+				className={`grid ${
+					number === 2
+						? "grid-cols-2"
+						: number === 3
+						? "grid-cols-3"
+						: "grid-cols-4"
+				} gap-4`}
+			>
 				{images.map((image: any, index: number) => (
 					<div
 						className="relative"

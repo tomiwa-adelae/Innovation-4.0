@@ -6,7 +6,6 @@ import { useState, useRef, useId, useEffect } from "react";
 interface SlideData {
 	name: string;
 	portfolio: string;
-	testimony: string;
 	image: string;
 }
 
@@ -64,7 +63,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 		event.currentTarget.style.opacity = "1";
 	};
 
-	const { image, name, testimony, portfolio } = slide;
+	const { image, name, portfolio } = slide;
 
 	return (
 		<div className="[perspective:1200px] [transform-style:preserve-3d]">
@@ -84,7 +83,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 				}}
 			>
 				<div
-					className="absolute top-0 left-0 w-full h-full bg-[#1D1F2F] rounded-md overflow-hidden transition-all duration-150 ease-out"
+					className="absolute top-0 left-0 w-full h-full bg-[#1D1F2F] rounded-lg overflow-hidden transition-all duration-150 ease-out"
 					style={{
 						transform:
 							current === index
@@ -111,7 +110,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 				</div>
 
 				<article
-					className={`absolute bottom-0 p-[4vmin] transition-opacity duration-1000 ease-in-out  ${
+					className={`absolute bottom-0 p-[4vmin] transition-opacity text-center duration-1000 ease-in-out  ${
 						current === index
 							? "opacity-100 visible"
 							: "opacity-0 invisible"
@@ -120,12 +119,9 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 					<h2 className="text-xl lg:text-2xl font-semibold relative uppercase mb-2">
 						{name}
 					</h2>
-					<h4 className="text-gray-100 font-medium text-xs lg:text-sm">
+					<h4 className="text-gray-100 font-medium text-sm">
 						{portfolio}
 					</h4>
-					<p className="text-xs lg:text-sm mt-3 leading-loose lg:leading-loose text-gray-200">
-						{testimony}
-					</p>
 				</article>
 			</li>
 		</div>
