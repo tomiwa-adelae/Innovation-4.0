@@ -6,11 +6,13 @@ const OurMission = () => {
 		<div className="container pt-10 md:pt-16 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 relative overflow-hidden">
 			<div className="lg:col-span-2 flex items-center justify-center order-2">
 				<Image
-					src={"/assets/images/image.png"}
+					src={
+						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308706/innovation/DSC_1397-Joe_Photography_zvroub.jpg"
+					}
 					alt={"Images Icon"}
 					width={1000}
 					height={1000}
-					className="w-full h-full rounded-lg aspect-square object-cover"
+					className="w-full h-full rounded-lg aspect-video object-cover"
 				/>
 			</div>
 			<div className="lg:col-span-3 order-1 md:order-2 flex items-start justify-center flex-col">

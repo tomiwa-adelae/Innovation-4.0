@@ -6,7 +6,7 @@ import CTABox from "./shared/CTABox";
 const Sponsors = () => {
 	return (
 		<div className="bg-white py-16 relative overflow-hidden">
-			<Spotlight />
+			{/* <Spotlight /> */}
 			<SectionHeader title={"Sponsors & Partners"} />
 			<div className="container mt-8">
 				<InfiniteMovingSponsors

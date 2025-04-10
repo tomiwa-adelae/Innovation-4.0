@@ -19,6 +19,8 @@ const ImageLibrary = ({
 		setOpen(true);
 	};
 
+	console.log(images);
+
 	return (
 		<div>
 			<div
@@ -30,7 +32,7 @@ const ImageLibrary = ({
 						: "grid-cols-4"
 				} gap-4`}
 			>
-				{images.map((image: any, index: number) => (
+				{images?.map((image: any, index: number) => (
 					<div
 						className="relative"
 						key={index}

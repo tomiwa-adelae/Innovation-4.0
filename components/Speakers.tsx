@@ -7,7 +7,7 @@ import { speakers } from "@/constants";
 const Speakers = () => {
 	return (
 		<div className="bg-gradient-to-r from-blue-100 to-sky-100 py-16 relative overflow-hidden">
-			<Spotlight />
+			{/* <Spotlight /> */}
 			<SectionHeader
 				title={"Innovation 4.0 speakers"}
 				position="center"

@@ -8,8 +8,14 @@ import Showcase from "@/components/shared/Showcase";
 import Speakers from "@/components/Speakers";
 import Sponsors from "@/components/Sponsors";
 import { Testimonials } from "@/components/Testimonials";
+import { getImages } from "@/lib/actions/gallery.actions";
 
-const page = () => {
+const page = async ({ searchParams }: SearchParamProps) => {
+	const page = Number(searchParams?.page) || 1;
+	const query = (searchParams?.query as string) || "";
+
+	const images = await getImages({ limit: 9 });
+
 	return (
 		<div>
 			<Showcase
@@ -34,6 +40,7 @@ const page = () => {
 				description={
 					"Innovation 4.0 is all about connection, learning, and transforming. Here’s a glimpse of what you can expect—moments of inspiration, collaboration, and innovation from past editions that will shape this year’s event. Your journey to unlocking your full potential starts here"
 				}
+				images={images.data}
 			/>
 			<Speakers />
 			<Agenda />

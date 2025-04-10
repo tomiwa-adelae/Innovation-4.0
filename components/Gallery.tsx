@@ -1,31 +1,21 @@
-import React from "react";
 import { Spotlight } from "./ui/spotlight-new";
 import SectionHeader from "./shared/SectionHeader";
 import ImageLibrary from "./shared/ImageLibrary";
-import { Button } from "./ui/button";
-import Link from "next/link";
-import CTABox from "./shared/CTABox";
 
-const Gallery = ({
+import CTABox from "./shared/CTABox";
+import { getImages } from "@/lib/actions/gallery.actions";
+
+const Gallery = async ({
 	title,
 	description,
 	pagination = false,
+	images,
 }: {
 	title: string;
 	description: string;
 	pagination?: boolean;
+	images?: any;
 }) => {
-	const images = [
-		{ src: "/assets/images/image.png" },
-		{ src: "/assets/images/image.png" },
-		{ src: "/assets/images/image.png" },
-		{ src: "/assets/images/image.png" },
-		{ src: "/assets/images/image.png" },
-		{ src: "/assets/images/image.png" },
-		{ src: "/assets/images/image.png" },
-		{ src: "/assets/images/image.png" },
-		{ src: "/assets/images/image.png" },
-	];
 	return (
 		<div className="bg-white py-16 relative overflow-hidden">
 			<Spotlight />

@@ -3,6 +3,7 @@ import { Spotlight } from "./ui/spotlight-new";
 import SectionHeader from "./shared/SectionHeader";
 import Image from "next/image";
 import Team from "./Team";
+import { organizers } from "@/constants";
 
 const MeetOrganizer = () => {
 	return (
@@ -37,46 +38,14 @@ const MeetOrganizer = () => {
 				</div>
 			</div>
 			<div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-				<Team
-					image={"/assets/images/tomiwa-adelae.jpeg"}
-					name="Tomiwa Adelae"
-					title="President of Innovation 4.0"
-				/>
-				<Team
-					image={"/assets/images/tomiwa-adelae.jpeg"}
-					name="Tomiwa Adelae"
-					title="President of Innovation 4.0"
-				/>
-				<Team
-					image={"/assets/images/tomiwa-adelae.jpeg"}
-					name="Tomiwa Adelae"
-					title="President of Innovation 4.0"
-				/>
-				<Team
-					image={"/assets/images/tomiwa-adelae.jpeg"}
-					name="Tomiwa Adelae"
-					title="President of Innovation 4.0"
-				/>
-				<Team
-					image={"/assets/images/tomiwa-adelae.jpeg"}
-					name="Tomiwa Adelae"
-					title="President of Innovation 4.0"
-				/>
-				<Team
-					image={"/assets/images/tomiwa-adelae.jpeg"}
-					name="Tomiwa Adelae"
-					title="President of Innovation 4.0"
-				/>
-				<Team
-					image={"/assets/images/tomiwa-adelae.jpeg"}
-					name="Tomiwa Adelae"
-					title="President of Innovation 4.0"
-				/>
-				<Team
-					image={"/assets/images/tomiwa-adelae.jpeg"}
-					name="Tomiwa Adelae"
-					title="President of Innovation 4.0"
-				/>
+				{organizers.map((organizer, index) => (
+					<Team
+						key={index}
+						image={organizer.image}
+						name={organizer.name}
+						title="President of Innovation 4.0"
+					/>
+				))}
 			</div>
 		</div>
 	);

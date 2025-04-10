@@ -26,7 +26,7 @@ const Agenda = () => {
 
 	return (
 		<div className="bg-white py-16 relative overflow-hidden">
-			<Spotlight />
+			{/* <Spotlight /> */}
 			<SectionHeader title={"Event Agenda"} position={"center"} />
 			<div className="mt-8">
 				<AgendaTimeline data={data} />

@@ -34,9 +34,10 @@ const HaveEnquiry = () => {
 						Have Enquiries?
 					</h2>
 					<p className="text-base">
-						Our team is ready to provide the information you
-						need—whether it’s about medication orders, bulk
-						purchases, pharmacy partnerships, or general inquiries.
+						We’re here to help! Whether you have questions about
+						registration, partnership opportunities, speaking slots,
+						or anything else — don’t hesitate to reach out. Our team
+						will respond promptly to ensure you’re well-supported.
 					</p>
 					<div className="text-sm font-medium mt-8">
 						<div className="flex items-center justify-between gap-8">
