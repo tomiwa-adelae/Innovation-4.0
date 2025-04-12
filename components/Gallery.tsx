@@ -3,7 +3,6 @@ import SectionHeader from "./shared/SectionHeader";
 import ImageLibrary from "./shared/ImageLibrary";
 
 import CTABox from "./shared/CTABox";
-import { getImages } from "@/lib/actions/gallery.actions";
 
 const Gallery = async ({
 	title,

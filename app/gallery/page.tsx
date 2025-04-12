@@ -16,7 +16,7 @@ const page = async ({ searchParams }: SearchParamProps) => {
 	const page = Number(searchParams?.page) || 1;
 	const query = (searchParams?.query as string) || "";
 
-	const images = await getImages({});
+	const images = await getImages({ limit: 50 });
 
 	return (
 		<div>

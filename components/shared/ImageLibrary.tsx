@@ -24,11 +24,11 @@ const ImageLibrary = ({
 			<div
 				className={`grid ${
 					number === 2
-						? "grid-cols-2"
+						? "grid-cols-1 md:grid-cols-2"
 						: number === 3
-						? "grid-cols-3"
+						? "grid-cols-2 lg:grid-cols-3"
 						: "grid-cols-4"
-				} gap-4`}
+				} gap-2 lg:gap-4`}
 			>
 				{images?.map((image: any, index: number) => (
 					<div

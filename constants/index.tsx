@@ -421,7 +421,7 @@ export const organizers = [
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310255/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.25.10_67deb68a_balksq.jpg",
-		name: "Evidence Alli",
+		name: "Enashinere Alli",
 		title: "",
 	},
 	{
