@@ -44,7 +44,7 @@ const HaveEnquiry = () => {
 							<a
 								target="_blank"
 								href={`https://wa.me/${whatsappNumber}`}
-								className="flex items-center justify-center hover:text-primary transition-all gap-2"
+								className="flex items-center justify-center hover:text-primary hover:underline transition-all gap-2"
 							>
 								<Image
 									src={"/assets/icons/whatsapp.svg"}
@@ -58,7 +58,7 @@ const HaveEnquiry = () => {
 							<a
 								target="_blank"
 								href={`tel:${whatsappNumber}`}
-								className="flex items-center justify-center hover:text-primary transition-all gap-2"
+								className="flex items-center justify-center hover:text-primary hover:underline transition-all gap-2"
 							>
 								<Image
 									src={"/assets/icons/call.svg"}

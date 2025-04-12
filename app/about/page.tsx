@@ -20,7 +20,7 @@ const page = () => {
 			<Showcase
 				headline="About Innovation 4.0"
 				description="Innovation 4.0 is more than a conference but a movement. Designed to ignite creativity, inspire action, and empower individuals to harness their full potential, this year's theme focuses on unlocking the power within YOU. Join thought leaders, innovators, and changemakers for an unforgettable experience."
-				bgImage="/assets/images/showcase-img.png"
+				bgImage="https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308706/innovation/DSC_1397-Joe_Photography_zvroub.jpg"
 				cta={[{ title: "Register", slug: "/register" }]}
 			/>
 			<div className="relative overflow-hidden">

@@ -13,7 +13,13 @@ const InnovationLegacy = () => {
 				<h3 className="text-primary text-xl md:text-2xl font-semibold uppercase mb-4">
 					{legacy.theme}
 				</h3>
-				<p className="text-base text-gray-700 mb-8">{legacy.summary}</p>
+				<div className="grid gap-4 mb-8">
+					{legacy.summary.map((summary, index) => (
+						<p key={index} className="text-base text-gray-700">
+							{summary}
+						</p>
+					))}
+				</div>
 				<ImageLibrary images={legacy.images} number={2} />
 			</div>
 		),

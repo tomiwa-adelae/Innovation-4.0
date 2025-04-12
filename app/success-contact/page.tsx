@@ -40,7 +40,7 @@ const page = async ({ searchParams }: PageProps) => {
 				}
 				description={`Thank you for reaching out to us! Your message has been successfully submitted, and our team will get back to you as soon as possible. If your inquiry is urgent, feel free to contact us directly at ${email}.`}
 				fullScreen={true}
-				bgImage="/assets/images/showcase-img.png"
+				bgImage="https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308706/innovation/DSC_1397-Joe_Photography_zvroub.jpg"
 			/>
 		</div>
 	);

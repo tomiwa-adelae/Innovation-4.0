@@ -7,9 +7,9 @@ const OurMission = () => {
 			<div className="lg:col-span-2 flex items-center justify-center order-2">
 				<Image
 					src={
-						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308706/innovation/DSC_1397-Joe_Photography_zvroub.jpg"
+						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307877/innovation/DSC_1269_uerpo3.jpg"
 					}
-					alt={"Images Icon"}
+					alt={"Innovation 3.0 image"}
 					width={1000}
 					height={1000}
 					className="w-full h-full rounded-lg aspect-video object-cover"

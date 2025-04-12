@@ -21,7 +21,7 @@ export const getImages = async ({
 	try {
 		const { resources } = await cloudinary.search
 			.expression(`folder:innovation${query ? ` AND ${query}` : ""}`)
-			.sort_by("public_id", "desc")
+			.sort_by("public_id", "asc")
 			.max_results(limit)
 			.execute();
 

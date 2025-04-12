@@ -42,7 +42,7 @@ const page = async ({ searchParams }: PageProps) => {
 					"Congratulations! You have successfully registered for Innovation 4.0. Get ready for an inspiring experience filled with groundbreaking ideas, networking, and opportunities to unlock the power of YOU."
 				}
 				fullScreen={true}
-				bgImage="/assets/images/showcase-img.png"
+				bgImage="https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308706/innovation/DSC_1397-Joe_Photography_zvroub.jpg"
 			/>
 		</div>
 	);

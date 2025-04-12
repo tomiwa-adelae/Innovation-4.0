@@ -37,8 +37,10 @@ const OurVision = () => {
 			</div>
 			<div className="lg:col-span-2 flex items-center justify-center">
 				<Image
-					src={"/assets/images/image.png"}
-					alt={"Images Icon"}
+					src={
+						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307821/innovation/DSC_1071_h271xs.jpg"
+					}
+					alt={"Innovation 3.0 image"}
 					width={1000}
 					height={1000}
 					className="w-full h-full rounded-lg aspect-square object-cover"

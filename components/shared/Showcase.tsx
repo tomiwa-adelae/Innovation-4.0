@@ -8,6 +8,7 @@ const Showcase = ({
 	cta,
 	extras,
 	fullScreen = false,
+	video,
 }: {
 	bgImage: string;
 	headline: string | React.ReactNode;
@@ -16,19 +17,31 @@ const Showcase = ({
 	image?: string;
 	extras?: string[];
 	fullScreen?: boolean;
+	video?: string;
 }) => {
 	return (
 		<div
 			style={{
-				backgroundImage: `url(${bgImage})`,
+				backgroundImage: !video ? `url(${bgImage})` : "",
 			}}
-			className={`flex items-end justify-center bg-no-repeat bg-center bg-cover relative text-white ${
+			className={`flex items-end justify-center bg-no-repeat bg-top bg-cover relative text-white ${
 				fullScreen ? "min-h-[100vh]" : "min-h-[85vh]"
 			}`}
 		>
+			{video && (
+				<video
+					autoPlay
+					loop
+					muted
+					playsInline
+					className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
+				>
+					<source src={video} type="video/mp4" />
+				</video>
+			)}
 			<div className={`grid container`}>
 				<div className="flex flex-col items-start justify-center py-20 z-50">
-					<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold uppercase">
+					<h1 className="text-3xl md:text-5xl lg:text-6xl font-bold uppercase">
 						{headline}
 					</h1>
 					<p className="text-base text-gray-100 mt-4 mb-6 lg:w-5/6">
@@ -69,7 +82,7 @@ const Showcase = ({
 					</div>
 				</div>
 			</div>
-			<div className="absolute inset-0 bg-black/70" />
+			<div className="absolute inset-0 bg-black/40" />
 		</div>
 	);
 };

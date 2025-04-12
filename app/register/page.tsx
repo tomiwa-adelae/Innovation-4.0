@@ -18,7 +18,7 @@ const page = () => {
 			<Showcase
 				headline="Register for Innovation 4.0 Now!"
 				description="Join thought leaders, innovators, and change-makers at the most anticipated conference of the year! Secure your spot today and be part of groundbreaking discussions, networking opportunities, and transformative experiences."
-				bgImage="/assets/images/showcase-img.png"
+				bgImage="https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307877/innovation/DSC_1269_uerpo3.jpg"
 				cta={[
 					{
 						title: "Chat on whatsapp",

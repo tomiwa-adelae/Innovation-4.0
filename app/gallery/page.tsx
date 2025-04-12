@@ -1,4 +1,5 @@
 import Gallery from "@/components/Gallery";
+import { GalleryShowcase } from "@/components/GalleryShowcase";
 import Showcase from "@/components/shared/Showcase";
 import { getImages } from "@/lib/actions/gallery.actions";
 
@@ -15,21 +16,11 @@ const page = async ({ searchParams }: SearchParamProps) => {
 	const page = Number(searchParams?.page) || 1;
 	const query = (searchParams?.query as string) || "";
 
-	const images = await getImages({ limit: 30 });
+	const images = await getImages({});
 
 	return (
 		<div>
-			<Showcase
-				headline="Innovation 4.0 Gallery"
-				description="Step into the world of Innovation! Explore unforgettable moments from past conferences, featuring inspiring speakers, interactive sessions, networking experiences, and the energy of innovators like you."
-				bgImage="/assets/images/showcase-img.png"
-				cta={[
-					{
-						title: "Join us for the next chapter",
-						slug: "/register",
-					},
-				]}
-			/>
+			<GalleryShowcase images={images.data.slice(0, 10)} />
 			<Gallery
 				title={"Captured Moments – Browse Our Gallery"}
 				description="Be part of a groundbreaking experience that will unlock new possibilities for your growth and innovation. Fill out the form below to register for Innovation 4.0 and take the next step toward transforming your future!"

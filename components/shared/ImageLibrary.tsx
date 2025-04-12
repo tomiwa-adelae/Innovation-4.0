@@ -19,8 +19,6 @@ const ImageLibrary = ({
 		setOpen(true);
 	};
 
-	console.log(images);
-
 	return (
 		<div>
 			<div
@@ -45,7 +43,7 @@ const ImageLibrary = ({
 							alt={`Image ${index + 1}`}
 							className="cursor-pointer rounded-lg aspect-square object-cover"
 						/>
-						<div className="absolute inset-0 transition-all hover:bg-black/20 cursor-pointer" />
+						<div className="absolute inset-0 transition-all hover:bg-black/20 cursor-pointer rounded-lg" />
 					</div>
 				))}
 			</div>

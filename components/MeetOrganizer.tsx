@@ -12,15 +12,17 @@ const MeetOrganizer = () => {
 			<SectionHeader title={"Meet our Organizer"} position="center" />
 			<div className="container grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
 				<Image
-					src={"/assets/images/tomiwa-adelae.jpeg"}
-					alt={"Tomiwa Adelae"}
+					src={
+						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308382/innovation/DSC_1065_pp4qio.jpg"
+					}
+					alt={"John Ogunjide's picture"}
 					width={1000}
 					height={1000}
 					className="w-full h-full aspect-square object-cover rounded-lg"
 				/>
 				<div className="flex flex-col items-start justify-center">
 					<h4 className="text-primary uppercase font-semibold text-xl md:text-2xl">
-						John Ogunjide Mayowa
+						John Ogunjide
 					</h4>
 					<h5 className="text-base text-gray-700 mt-1.5">
 						Founder & Convener of Innovation 4.0
@@ -43,7 +45,7 @@ const MeetOrganizer = () => {
 						key={index}
 						image={organizer.image}
 						name={organizer.name}
-						title="President of Innovation 4.0"
+						title={organizer.title}
 					/>
 				))}
 			</div>

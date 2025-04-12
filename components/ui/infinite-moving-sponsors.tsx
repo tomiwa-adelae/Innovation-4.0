@@ -12,9 +12,8 @@ export const InfiniteMovingSponsors = ({
 	className,
 }: {
 	items: {
-		quote: string;
+		image: string;
 		name: string;
-		title: string;
 	}[];
 	direction?: "left" | "right";
 	speed?: "fast" | "normal" | "slow";
@@ -101,11 +100,11 @@ export const InfiniteMovingSponsors = ({
 						key={item.name}
 					>
 						<Image
-							src={"/assets/icons/spotify.webp"}
-							alt={"Spotify Icon"}
-							width={1000}
-							height={1000}
-							className="w-auto h-auto object-cover"
+							src={item.image}
+							alt={item.name}
+							width={120}
+							height={120}
+							className="size-full object-cover"
 						/>
 					</li>
 				))}

@@ -12,7 +12,7 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 
 const Countdown = () => {
-	const launchDate = new Date("May 17, 2025, 11:00:00").getTime();
+	const launchDate = new Date("May 16, 2025, 11:00:00").getTime();
 
 	const [days, setDays] = useState<any>(0);
 	const [hours, setHours] = useState<any>(0);
@@ -92,7 +92,7 @@ const Countdown = () => {
 						<h4>Time: {conferenceTime}</h4>
 					</div>
 				</div>
-				<div className="mt-4 mb-8 uppercase shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg p-8 text-primary">
+				<div className="mt-4 mb-8 uppercase shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg p-8 font-medium text-primary text-sm sm:text-base">
 					<h4>Location: {conferenceLocation}</h4>
 				</div>
 				<Button asChild size="lg">
