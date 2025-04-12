@@ -85,14 +85,14 @@ const Countdown = () => {
 					<CountdownBox value={seconds} label="Seconds" />
 				</div>
 				<div className="mt-8 uppercase grid grid-cols-1 md:grid-cols-2 gap-4 font-medium text-primary text-sm sm:text-base">
-					<div className="shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg px-4 md:p-8">
+					<div className="shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg px-4 py-4 md:p-8">
 						<h4>Date: {conferenceDate}</h4>
 					</div>
-					<div className="shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg px-4 md:p-8">
+					<div className="shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg px-4 py-4 md:p-8">
 						<h4>Time: {conferenceTime}</h4>
 					</div>
 				</div>
-				<div className="mt-4 mb-8 uppercase shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg px-4 md:p-8 font-medium text-primary text-sm sm:text-base">
+				<div className="mt-4 mb-8 uppercase shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg px-4 py-4 md:p-8 font-medium text-primary text-sm sm:text-base">
 					<h4>Location: {conferenceLocation}</h4>
 				</div>
 				<Button asChild size="lg">
