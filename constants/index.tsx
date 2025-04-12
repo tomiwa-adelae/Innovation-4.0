@@ -130,9 +130,7 @@ export const faqs = [
 	},
 	{
 		question: "How can I contact the organizers if I have more questions?",
-		answer: `If you have further questions or need assistance, feel free to contact our team at support@innovationconf.ng or visit the ${email} for additional contact details. We’re happy to assist!
-
-`,
+		answer: `If you have further questions or need assistance, feel free to contact our team at ${email}. We’re happy to assist!`,
 	},
 ];
 
@@ -279,19 +277,19 @@ export const contactDetails = [
 		icon: "/assets/icons/pin.svg",
 		name: "Pin",
 		title: "Address",
-		details: ["51b, Agboola Ajumobi Crescent, Magodo Phase 2, Lagos"],
+		details: [conferenceLocation],
 	},
 	{
 		icon: "/assets/icons/phone.svg",
 		name: "Phone",
 		title: "Phone Numbers",
-		details: ["08151873380", "+2348157425111", "07030832001"],
+		details: ["08101569177", "09063596799", "08130116201"],
 	},
 	{
 		icon: "/assets/icons/email.svg",
 		name: "Email",
 		title: "Email",
-		details: ["northamptonhealthcare@gmail.com"],
+		details: [email],
 	},
 ];
 
@@ -432,6 +430,11 @@ export const organizers = [
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744387709/innovation/organizer/Screenshot_20250411_123732_Instagram-removebg_1_fqtk6v.png",
 		name: "Eyitayo Akinwale",
+		title: "",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744477269/innovation/organizer/WhatsApp_Image_2025-04-12_at_11.01.31_AM_txqmim.jpg",
+		name: "Sallie Uju-Njoku",
 		title: "",
 	},
 ];

@@ -25,7 +25,7 @@ const MeetOrganizer = () => {
 						John Ogunjide
 					</h4>
 					<h5 className="text-base text-gray-700 mt-1.5">
-						Founder & Convener of Innovation 4.0
+						Founder & Convener of Innovation
 					</h5>
 					<p className="text-base mt-4">
 						John Ogunjide is a visionary leader, entrepreneur, and

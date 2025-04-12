@@ -17,7 +17,7 @@ const HaveEnquiry = () => {
 								alt={"A nurse"}
 								width={1000}
 								height={1000}
-								className={`w-36 h-36 object-cover rounded-full border-8 hover:scale-105 transition-all border-white ${
+								className={`w-28 h-28 md:w-36 md:h-36 object-cover rounded-full border-8 hover:scale-105 transition-all border-white ${
 									index + 1 !== 1 && "ml-[-25px]"
 								}`}
 							/>

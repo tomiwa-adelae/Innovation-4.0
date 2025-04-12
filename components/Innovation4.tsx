@@ -30,8 +30,8 @@ const Innovation4 = () => {
 										className="aspect-video size-full object-cover"
 									/>
 								</div>
-								<div className="grid pt-4 pb-6 px-8">
-									<h4 className="uppercase text-primary font-medium text-base leading-loose">
+								<div className="grid pt-4 pb-6 px-4">
+									<h4 className="uppercase text-primary font-medium text-base">
 										{title}
 									</h4>
 									<p className="text-base text-muted-foreground">

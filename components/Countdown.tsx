@@ -78,21 +78,21 @@ const Countdown = () => {
 				description={`The future unlocks on the ${conferenceDate}! Get ready to unlock new possibilities, connect with visionaries, and be part of a movement that redefines the future. Don’t miss your chance to be at the forefront of groundbreaking ideas and limitless opportunities`}
 			/>
 			<div className="container">
-				<div className="mt-8 grid grid-cols-4 gap-4">
+				<div className="mt-8 grid grid-cols-4 gap-2 md:gap-4">
 					<CountdownBox value={days} label="Days" />
 					<CountdownBox value={hours} label="Hours" />
 					<CountdownBox value={minutes} label="Minutes" />
 					<CountdownBox value={seconds} label="Seconds" />
 				</div>
 				<div className="mt-8 uppercase grid grid-cols-1 md:grid-cols-2 gap-4 font-medium text-primary text-sm sm:text-base">
-					<div className="shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg p-8">
+					<div className="shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg px-4 md:p-8">
 						<h4>Date: {conferenceDate}</h4>
 					</div>
-					<div className="shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg p-8">
+					<div className="shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg px-4 md:p-8">
 						<h4>Time: {conferenceTime}</h4>
 					</div>
 				</div>
-				<div className="mt-4 mb-8 uppercase shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg p-8 font-medium text-primary text-sm sm:text-base">
+				<div className="mt-4 mb-8 uppercase shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-white rounded-lg px-4 md:p-8 font-medium text-primary text-sm sm:text-base">
 					<h4>Location: {conferenceLocation}</h4>
 				</div>
 				<Button asChild size="lg">
