@@ -49,7 +49,7 @@ export const innovationFour = [
 		name: "Light bulb",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744390023/innovation/DSC_1389-Joe_Photography_kyopga.jpg",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744573222/innovation/WhatsApp_Image_2025-04-13_at_8.36.31_PM_zaxsoa.jpg",
 		title: "Exclusive Giveaways & Certifications",
 		description: "Earn recognition for your participation.",
 		name: "Certification",
@@ -185,7 +185,7 @@ export const agendas = [
 	},
 	{
 		title: "02:40PM",
-		agenda: ["Trumpeter"],
+		agenda: ["Musical performance"],
 	},
 	{
 		title: "02:45PM",
@@ -207,16 +207,16 @@ export const innovationLegacies = [
 		],
 		images: [
 			{
-				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308723/innovation/DSC_1425-Joe_Photography_hvbqhu.jpg",
+				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575017/innovation/WhatsApp_Image_2025-04-13_at_8.37.47_PM_awa1ja.jpg",
 			},
 			{
-				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308689/innovation/DSC_1383-Joe_Photography_ulwvwy.jpg",
+				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575016/innovation/WhatsApp_Image_2025-04-13_at_8.37.46_PM_1_i5wqjo.jpg",
 			},
 			{
-				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307897/innovation/DSC_1036_ogtkgd.jpg",
+				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575017/innovation/WhatsApp_Image_2025-04-13_at_8.37.46_PM_3_zq46m9.jpg",
 			},
 			{
-				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307925/innovation/DSC_1062_q7cxbv.jpg",
+				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575016/innovation/WhatsApp_Image_2025-04-13_at_8.37.45_PM_2_ntzfst.jpg",
 			},
 		],
 	},
@@ -324,42 +324,32 @@ export const organizers = [
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310251/innovation/organizer/WhatsApp_Image_2025-04-10_at_09.45.59_0ede9c77_dpr33d.jpg",
 		name: "Chidubem Anokwute",
-		title: "President of Innovation 4.0",
+		title: "President (Innovation Conference, Ajayi Crowther University)",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310251/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.04.17_9c2da4b9_rlh41r.jpg",
+		name: "Flourish Olunuibi",
+		title: "Vice-president (School of Innovation)",
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369177/innovation/organizer/WhatsApp_Image_2025-04-11_at_11.17.28_AM_hv7ddp.jpg",
-		name: "Susan Alabi",
-		title: "General Secretary",
+		name: "Marvellous Samuel",
+		title: "Vice-president (Administration)",
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310256/innovation/organizer/WhatsApp_Image_2025-04-09_at_12.34.13_3f49fec4_vokupb.jpg",
 		name: "Gift Faleye",
-		title: "Host",
+		title: "Global Director",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310251/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.04.17_9c2da4b9_rlh41r.jpg",
-		name: "Flourish Olunubi",
-		title: "Host",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310257/innovation/organizer/surprise_3_yjpcn5.jpg",
+		name: "Surprise Jegede",
+		title: "Public Relation Office",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744464605/innovation/organizer/WhatsApp_Image_2025-04-11_at_6.19.40_PM_wky5xa.jpg",
-		name: "Lolade Ayun",
-		title: "Panelist",
-	},
-	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311465/innovation/organizer/tomiwa-adelae_khh1k4.jpg",
-		name: "Tomiwa Adelae",
-		title: "Website Developer",
-	},
-	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369189/innovation/organizer/20250202-DSC08358_fxuqef.jpg",
-		name: "Ifeoluwani Adeleke",
-		title: "Director of Media",
-	},
-	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310256/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.44.26_bf546150_qkptqm.jpg",
-		name: "Emmanuella Adeposi",
-		title: "Volunteer's lead",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369177/innovation/organizer/WhatsApp_Image_2025-04-11_at_11.17.28_AM_hv7ddp.jpg",
+		name: "Susan Alabi",
+		title: "General Secretary (Volunteer's Team Lead)",
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310258/innovation/organizer/WhatsApp_Image_2025-04-09_at_13.27.54_ec14b81a_gshwgt.jpg",
@@ -367,74 +357,110 @@ export const organizers = [
 		title: "Treasurer",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310250/innovation/organizer/WhatsApp_Image_2025-04-10_at_13.59.06_f3936033_miwerw.jpg",
-		name: "Adaeze Nwadili",
-		title: "Registration lead",
-	},
-	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310257/innovation/organizer/surprise_3_yjpcn5.jpg",
-		name: "Surprise Jegede",
-		title: "",
-	},
-
-	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310249/innovation/organizer/WhatsApp_Image_2025-04-10_at_11.03.32_77227cdf_dvmss6.jpg",
 		name: "Blessing Onafowokan",
-		title: "",
+		title: "Speakers Management",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310250/innovation/organizer/WhatsApp_Image_2025-04-10_at_17.15.00_2e6d55ee_edw7zw.jpg",
-		name: "Joy Oloyede",
-		title: "",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310249/innovation/organizer/WhatsApp_Image_2025-04-10_at_11.03.32_77227cdf_dvmss6.jpg",
+		name: "Tomi Oluyamo",
+		title: "Speakers Management",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310257/innovation/organizer/WhatsApp_Image_2025-04-09_at_14.25.40_2fb5b53a_wn21ra.jpg",
-		name: "Oyinkansola Ogunsanya",
-		title: "",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369189/innovation/organizer/20250202-DSC08358_fxuqef.jpg",
+		name: "Ifeoluwani Adeleke",
+		title: "Director of Media",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310252/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.11.27_c064f20f_ambue6.jpg",
+		name: "Saliu Rilwan",
+		title: "Media Team",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744477269/innovation/organizer/WhatsApp_Image_2025-04-12_at_11.01.31_AM_txqmim.jpg",
+		name: "Sallie Uju-Njoku",
+		title: "Media Team",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310252/innovation/organizer/IMG_1179_wfburu.jpg",
+		name: "Akinjide Akinwumi",
+		title: "Media Team",
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310249/innovation/organizer/WhatsApp_Image_2025-04-09_at_14.33.39_6bd5e4f8_mdbqbs.jpg",
 		name: "Omowumi Ayelabowo",
+		title: "Welfare",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310249/innovation/organizer/WhatsApp_Image_2025-04-09_at_14.33.39_6bd5e4f8_mdbqbs.jpg",
+		name: "Onaara Shobomi",
+		title: "Assistant Welfare",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310255/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.25.10_67deb68a_balksq.jpg",
+		name: "Enashinere Alli",
+		title: "Sponsorship & Partnership",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310250/innovation/organizer/WhatsApp_Image_2025-04-10_at_13.59.06_f3936033_miwerw.jpg",
+		name: "Adaeze Nwadili",
+		title: "Delicate Registration and Communication",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310250/innovation/organizer/WhatsApp_Image_2025-04-10_at_17.15.00_2e6d55ee_edw7zw.jpg",
+		name: "Joy Oloyede",
+		title: "Registration Team",
+	},
+
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310255/innovation/organizer/WhatsApp_Image_2025-04-09_at_13.15.43_b081eb93_oltc5x.jpg",
+		name: "Ewaoluwanimi Omotosho",
+		title: "Registration Team",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310257/innovation/organizer/WhatsApp_Image_2025-04-09_at_14.25.40_2fb5b53a_wn21ra.jpg",
+		name: "Oyinkansola Ogunsanya",
+		title: "Publicity & PR",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310256/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.44.26_bf546150_qkptqm.jpg",
+		name: "Emmanuella Adeposi",
+		title: "Ushering Lead",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744387709/innovation/organizer/Screenshot_20250411_123732_Instagram-removebg_1_fqtk6v.png",
+		name: "Eyitayo Akinwale",
+		title: "Social Media",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575216/innovation/organizer/WhatsApp_Image_2025-04-12_at_9.03.54_PM_g6fr5u.jpg",
+		name: "Aderogba Osasona",
+		title: "Protocol",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575256/innovation/organizer/WhatsApp_Image_2025-04-13_at_3.51.58_PM_bt6tb5.jpg",
+		name: "Shadrach Orukpe",
 		title: "",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310255/innovation/organizer/WhatsApp_Image_2025-04-09_at_13.15.43_b081eb93_oltc5x.jpg",
-		name: "Ewaoluwanimi Omotoso",
-		title: "",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744464605/innovation/organizer/WhatsApp_Image_2025-04-11_at_6.19.40_PM_wky5xa.jpg",
+		name: "Lolade Ayun",
+		title: "Host",
 	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311465/innovation/organizer/tomiwa-adelae_khh1k4.jpg",
+		name: "Tomiwa Adelae",
+		title: "Website Developer",
+	},
+
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744312164/innovation/organizer/WhatsApp_Image_2025-04-10_at_20.08.57_b8011e59_ua3vzo.jpg",
 		name: "Kemi Akinteye",
 		title: "",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310252/innovation/organizer/IMG_1179_wfburu.jpg",
-		name: "Akinjide Akinwumi",
-		title: "",
-	},
-	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310252/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.11.27_c064f20f_ambue6.jpg",
-		name: "Saliu Rilwan",
-		title: "",
-	},
-	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310255/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.25.10_67deb68a_balksq.jpg",
-		name: "Enashinere Alli",
-		title: "",
-	},
-	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311935/innovation/organizer/WhatsApp_Image_2025-04-10_at_20.04.42_2d7d0f47_fig9tg.jpg",
 		name: "Shade Akinteye",
-		title: "",
-	},
-	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744387709/innovation/organizer/Screenshot_20250411_123732_Instagram-removebg_1_fqtk6v.png",
-		name: "Eyitayo Akinwale",
-		title: "",
-	},
-	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744477269/innovation/organizer/WhatsApp_Image_2025-04-12_at_11.01.31_AM_txqmim.jpg",
-		name: "Sallie Uju-Njoku",
 		title: "",
 	},
 ];
@@ -460,7 +486,7 @@ export const testimonials = [
 	},
 	{
 		quote: "Miss Elizabeth Samuel was fire. All her words are so stuck in my head. I honestly can not explain myself.",
-		name: "James Kim",
+		name: "Ife",
 		designation: "300 level ACU student",
 		src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744312373/innovation/organizer/koko_llklvf.jpg",
 	},

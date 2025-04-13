@@ -9,7 +9,7 @@ const MeetOrganizer = () => {
 	return (
 		<div className="bg-white py-16 relative overflow-hidden">
 			<Spotlight />
-			<SectionHeader title={"Meet our Organizer"} position="center" />
+			<SectionHeader title={"Meet The Team"} position="center" />
 			<div className="container grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
 				<Image
 					src={
@@ -24,9 +24,7 @@ const MeetOrganizer = () => {
 					<h4 className="text-primary uppercase font-semibold text-xl md:text-2xl">
 						John Ogunjide
 					</h4>
-					<h5 className="text-base text-gray-700 mt-1.5">
-						Founder & Convener of Innovation
-					</h5>
+					<h5 className="text-base text-gray-700 mt-1.5">Convener</h5>
 					<p className="text-base mt-4">
 						John Ogunjide is a visionary leader, entrepreneur, and
 						advocate for innovation and personal transformation.

@@ -3,7 +3,7 @@ import SectionHeader from "./shared/SectionHeader";
 
 const OurMission = () => {
 	return (
-		<div className="container pt-10 md:pt-16 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 relative overflow-hidden">
+		<div className="container pt-10 md:pt-16 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative overflow-hidden">
 			<div className="lg:col-span-2 flex items-center justify-center order-2">
 				<Image
 					src={
@@ -15,7 +15,7 @@ const OurMission = () => {
 					className="w-full h-full rounded-lg aspect-video object-cover"
 				/>
 			</div>
-			<div className="lg:col-span-3 order-1 md:order-2 flex items-start justify-center flex-col">
+			<div className="lg:col-span-2 order-1 md:order-2 flex items-start justify-center flex-col">
 				<SectionHeader isContainer={false} title={"Our Mission"} />
 				<p className="text-base mt-4">
 					At the heart of our mission is the commitment to reproducing

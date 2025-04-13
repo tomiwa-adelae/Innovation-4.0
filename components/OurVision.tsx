@@ -3,8 +3,8 @@ import SectionHeader from "./shared/SectionHeader";
 
 const OurVision = () => {
 	return (
-		<div className="container pt-10 md:pt-16 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
-			<div className="lg:col-span-3 flex items-start justify-center flex-col">
+		<div className="container pt-10 md:pt-16 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+			<div className="lg:col-span-2 flex items-start justify-center flex-col">
 				<SectionHeader isContainer={false} title={"Our Vision"} />
 				<p className="text-base mt-4">
 					The vision emerging from this approach is to cultivate a
@@ -38,12 +38,12 @@ const OurVision = () => {
 			<div className="lg:col-span-2 flex items-center justify-center">
 				<Image
 					src={
-						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307821/innovation/DSC_1071_h271xs.jpg"
+						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308706/innovation/DSC_1397-Joe_Photography_zvroub.jpg"
 					}
 					alt={"Innovation 3.0 image"}
 					width={1000}
 					height={1000}
-					className="w-full h-full rounded-lg aspect-square object-cover"
+					className="w-full h-full rounded-lg aspect-video object-cover"
 				/>
 			</div>
 		</div>

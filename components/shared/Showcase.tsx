@@ -44,7 +44,7 @@ const Showcase = ({
 					<h1 className="text-3xl md:text-5xl lg:text-6xl font-bold uppercase">
 						{headline}
 					</h1>
-					<p className="text-base text-gray-100 mt-4 mb-6 lg:w-5/6">
+					<p className="text-base text-gray-100 mt-4 mb-6 lg:w-9/12">
 						{description}
 					</p>
 					<div className="flex items-center flex-col w-full md:flex-row justify-start gap-4">
