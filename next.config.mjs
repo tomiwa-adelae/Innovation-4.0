@@ -12,6 +12,11 @@ const nextConfig = {
                    hostname: 'previews.123rf.com',
                    port: ''
                },
+               {
+                   protocol: 'https',
+                   hostname: 'icon-library.com',
+                   port: ''
+               },
    
            ]
        }

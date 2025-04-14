@@ -40,7 +40,7 @@ const Showcase = ({
 				</video>
 			)}
 			<div className={`grid container`}>
-				<div className="flex flex-col items-start justify-center py-20 z-50">
+				<div className="flex flex-col items-start justify-center pt-20 pb-8 z-50">
 					<h1 className="text-3xl md:text-5xl lg:text-6xl font-bold uppercase">
 						{headline}
 					</h1>

@@ -330,7 +330,7 @@ export const organizers = [
 		title: "Speakers Management",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310249/innovation/organizer/WhatsApp_Image_2025-04-10_at_11.03.32_77227cdf_dvmss6.jpg",
+		image: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
 		name: "Tomi Oluyamo",
 		title: "Speakers Management",
 	},
@@ -360,7 +360,7 @@ export const organizers = [
 		title: "Welfare",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310249/innovation/organizer/WhatsApp_Image_2025-04-09_at_14.33.39_6bd5e4f8_mdbqbs.jpg",
+		image: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
 		name: "Onaara Shobomi",
 		title: "Assistant Welfare",
 	},
