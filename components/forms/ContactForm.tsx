@@ -82,7 +82,6 @@ export function ContactForm() {
 
 	return (
 		<div className="bg-white py-16 relative overflow-hidden">
-			<Spotlight />
 			<div className="container">
 				<h2
 					className={`uppercase text-xl md:text-2xl lg:text-3xl leading-loose md:leading-loose lg:leading-normal  font-semibold mb-2 text-center text-primary`}

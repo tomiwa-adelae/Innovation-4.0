@@ -1,12 +1,10 @@
 import { contactDetails, socialLinks } from "@/constants";
 import Image from "next/image";
 import SectionHeader from "./shared/SectionHeader";
-import { Spotlight } from "./ui/spotlight-new";
 
 const ContactDetails = () => {
 	return (
 		<div className="py-16 bg-gray-100 relative overflow-hidden">
-			<Spotlight />
 			<SectionHeader title="Reach us anytime" position="center" />
 			<div className="container">
 				<div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

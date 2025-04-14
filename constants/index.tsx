@@ -175,7 +175,7 @@ export const innovationLegacies = [
 		],
 		images: [
 			{
-				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575017/innovation/WhatsApp_Image_2025-04-13_at_8.37.47_PM_awa1ja.jpg",
+				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575018/innovation/WhatsApp_Image_2025-04-13_at_8.37.44_PM_lumriz.jpg",
 			},
 			{
 				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575016/innovation/WhatsApp_Image_2025-04-13_at_8.37.46_PM_1_i5wqjo.jpg",
@@ -197,7 +197,7 @@ export const innovationLegacies = [
 		],
 		images: [
 			{
-				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307821/innovation/DSC_1071_h271xs.jpg",
+				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650228/innovation/WhatsApp_Image_2025-04-14_at_6.02.24_PM_1_bokhnb.jpg",
 			},
 			{
 				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307829/innovation/DSC_1101_u0rvdk.jpg",
@@ -206,7 +206,7 @@ export const innovationLegacies = [
 				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307862/innovation/DSC_1259_pf31uo.jpg",
 			},
 			{
-				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307877/innovation/DSC_1269_uerpo3.jpg",
+				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650228/innovation/WhatsApp_Image_2025-04-14_at_6.02.24_PM_hlxvic.jpg",
 			},
 			{
 				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307910/innovation/DSC_1056_vpfsmf.jpg",
@@ -244,7 +244,7 @@ export const contactDetails = [
 	{
 		icon: "/assets/icons/pin.svg",
 		name: "Pin",
-		title: "Address",
+		title: "Venue address",
 		details: [conferenceLocation],
 	},
 	{
@@ -265,17 +265,17 @@ export const socialLinks = [
 	{
 		name: "Facebook",
 		icon: "/assets/icons/facebook.svg",
-		slug: "https://facebook.com",
+		slug: "https://www.facebook.com/profile.php?id=100076987526979",
 	},
 	{
 		name: "Instagram",
 		icon: "/assets/icons/instagram.svg",
-		slug: "https://instagram.com",
+		slug: "https://www.instagram.com/innovationconf/",
 	},
 	{
 		name: "Linkedin",
 		icon: "/assets/icons/linkedin.svg",
-		slug: "https://linkedin.com",
+		slug: "https://www.linkedin.com/in/john-ogunjide-423455230/",
 	},
 ];
 
@@ -312,12 +312,12 @@ export const organizers = [
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310257/innovation/organizer/surprise_3_yjpcn5.jpg",
 		name: "Surprise Jegede",
-		title: "Public Relation Office",
+		title: "Public Relation Officer",
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369177/innovation/organizer/WhatsApp_Image_2025-04-11_at_11.17.28_AM_hv7ddp.jpg",
 		name: "Susan Alabi",
-		title: "General Secretary (Volunteer's Team Lead)",
+		title: "Volunteer's Team Lead",
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310258/innovation/organizer/WhatsApp_Image_2025-04-09_at_13.27.54_ec14b81a_gshwgt.jpg",
@@ -420,16 +420,16 @@ export const organizers = [
 		name: "Tomiwa Adelae",
 		title: "Website Developer",
 	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311935/innovation/organizer/WhatsApp_Image_2025-04-10_at_20.04.42_2d7d0f47_fig9tg.jpg",
+		name: "Shade Akinteye",
+		title: "Project-based Learning Coordinator (School of Innovation)",
+	},
 
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744312164/innovation/organizer/WhatsApp_Image_2025-04-10_at_20.08.57_b8011e59_ua3vzo.jpg",
 		name: "Kemi Akinteye",
-		title: "",
-	},
-	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311935/innovation/organizer/WhatsApp_Image_2025-04-10_at_20.04.42_2d7d0f47_fig9tg.jpg",
-		name: "Shade Akinteye",
-		title: "",
+		title: "Financial Team Lead (School of Innovation)",
 	},
 ];
 
@@ -466,8 +466,8 @@ export const sponsors = [
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
 	},
 	{
-		name: "MSME Africa",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
+		name: "APEX Network",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
 	},
 	{
 		name: "MSME Africa",
