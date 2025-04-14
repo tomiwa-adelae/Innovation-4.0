@@ -7,6 +7,11 @@ const nextConfig = {
                    hostname: 'res.cloudinary.com',
                    port: ''
                },
+               {
+                   protocol: 'https',
+                   hostname: 'previews.123rf.com',
+                   port: ''
+               },
    
            ]
        }
