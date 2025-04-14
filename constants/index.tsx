@@ -474,23 +474,31 @@ export const sponsors = [
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
 	},
 	{
-		name: "MSME Africa",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
+		name: "APEX Network",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
 	},
 	{
 		name: "MSME Africa",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
 	},
 	{
-		name: "MSME Africa",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
+		name: "APEX Network",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
 	},
 	{
 		name: "MSME Africa",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
 	},
 	{
+		name: "APEX Network",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
+	},
+	{
 		name: "MSME Africa",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
+	},
+	{
+		name: "APEX Network",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
 	},
 ];
