@@ -97,7 +97,10 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 							opacity: current === index ? 1 : 0.5,
 						}}
 						alt={name}
-						src={image}
+						// src={image}
+						src={
+							"https://previews.123rf.com/images/glebstock/glebstock1606/glebstock160600132/58912872-hidden-face-in-the-shadow-male-person-silhouette.jpg"
+						}
 						onLoad={imageLoaded}
 						loading="eager"
 						decoding="sync"
@@ -117,10 +120,10 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 					}`}
 				>
 					<h2 className="text-xl lg:text-2xl font-semibold relative uppercase mb-2">
-						{name}
+						{/* {name} */}
 					</h2>
 					<h4 className="text-gray-100 font-medium text-sm">
-						{portfolio}
+						{/* {portfolio} */}
 					</h4>
 				</article>
 			</li>

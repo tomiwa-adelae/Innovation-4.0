@@ -26,7 +26,7 @@ export const whatsappNumber = "234 810 156 9177";
 export const conferenceDate = "16th of May, 2025";
 export const conferenceTime = "11:00am West Africa Time";
 export const conferenceLocation =
-	"Alakija folorunsho hall, Law Faculty, Ajayi Crowther University, Oyo";
+	"Alakija Folorunsho Hall, Law Faculty, Ajayi Crowther University, Oyo";
 export const websiteURL = "https://innovationconference.com.ng";
 
 export const innovationFour = [
@@ -69,7 +69,7 @@ export const speakers = [
 	},
 	{
 		name: "John Ogunjide",
-		portfolio: "Convener & Founder of Innovation 4,0",
+		portfolio: "Convener",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308382/innovation/DSC_1065_pp4qio.jpg",
 	},
 	{
@@ -81,7 +81,7 @@ export const speakers = [
 
 export const enquiriesImages = [
 	"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369177/innovation/organizer/WhatsApp_Image_2025-04-11_at_11.17.28_AM_hv7ddp.jpg",
-	"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311935/innovation/organizer/WhatsApp_Image_2025-04-10_at_20.04.42_2d7d0f47_fig9tg.jpg",
+	"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310251/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.04.17_9c2da4b9_rlh41r.jpg",
 	"https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310255/innovation/organizer/WhatsApp_Image_2025-04-09_at_13.15.43_b081eb93_oltc5x.jpg",
 ];
 
@@ -141,59 +141,27 @@ export const agendas = [
 	},
 	{
 		title: "12:00PM",
-		agenda: ["Opening of the program"],
-	},
-	{
-		title: "12:05PM",
-		agenda: ["Opening prayer"],
-	},
-	{
-		title: "12:08PM",
-		agenda: ["Welcome address"],
-	},
-	{
-		title: "12:15PM",
-		agenda: ["Spoken words performance"],
-	},
-	{
-		title: "12:20PM",
-		agenda: ["First speaker"],
-	},
-	{
-		title: "12:40PM",
-		agenda: ["Second speaker"],
+		agenda: [
+			"Opening of the program",
+			"Opening prayer",
+			"Welcome address",
+			"Spoken words performance",
+			"First speaker",
+			"Second speaker",
+		],
 	},
 	{
 		title: "01:00PM",
-		agenda: ["Games"],
-	},
-	{
-		title: "01:10PM",
-		agenda: ["Panel session"],
-	},
-	{
-		title: "01:40PM",
-		agenda: ["Song rendition"],
-	},
-	{
-		title: "01:50PM",
-		agenda: ["Third speaker"],
+		agenda: ["Games", "Panel session", "Song rendition", "Third speaker"],
 	},
 	{
 		title: "02:20PM",
-		agenda: ["Fourth speaker"],
-	},
-	{
-		title: "02:40PM",
-		agenda: ["Musical performance"],
-	},
-	{
-		title: "02:45PM",
-		agenda: ["Awards"],
-	},
-	{
-		title: "02:55PM",
-		agenda: ["Vote of thanks and closing prayers"],
+		agenda: [
+			"Fourth speaker",
+			"Musical performance",
+			"Awards",
+			"Vote of thanks and closing prayers",
+		],
 	},
 ];
 
@@ -332,7 +300,7 @@ export const organizers = [
 		title: "Vice-president (School of Innovation)",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369177/innovation/organizer/WhatsApp_Image_2025-04-11_at_11.17.28_AM_hv7ddp.jpg",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744623770/innovation/organizer/WhatsApp_Image_2025-04-14_at_12.09.33_AM_iobw2i.jpg",
 		name: "Marvellous Samuel",
 		title: "Vice-president (Administration)",
 	},
@@ -473,7 +441,7 @@ export const testimonials = [
 		src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310256/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.44.26_bf546150_qkptqm.jpg",
 	},
 	{
-		quote: "What a way to celebrate my birthday! I attended Innovation 2.0, and I'm still reeling from the experience. This gathering was truly a game-changer, and I feel so grateful to have been a part of it. From the moment I walked in, I knew I was in for something special. The energy in the room was electric, and the excitement was palpable. The speakers were absolutely phenomenal, sharing cutting-edge ideas and insights that left me in awe. I was fascinated by the innovative solutions presented, and I found myself scribbling notes furiously, eager to absorb every bit of knowledge. What struck me most was the diversity of perspectives and expertise. The event brought together individuals from various fields, all united by a passion for innovation and progress. I had the opportunity to engage with like-minded individuals, exchange ideas, and form meaningful connections that I know will last a lifetime. The event was expertly curated, with a perfect blend of keynote speeches, discussions, and interactive sessions. I was particularly impressed by the emphasis on practical applications and real-world examples, making it feel accessible and achievable. Innovation 2.0 was more than just an event – it was an experience that ignited a spark within me. I left feeling inspired, motivated, and empowered to make a difference in my own sphere. It was a powerful reminder that we all have the capacity to create positive change and shape the future. As I reflect on my birthday celebration, I realize that this event was the perfect gift – a chance to learn, grow, and connect with others who share my passion for innovation. I'm already looking forward to the next iteration of Innovation 2.0, and I encourage anyone who's interested in shaping the future to join me there. Thank you to the organizers, volunteers, speakers, and fellow attendees for making it an unforgettable experience!",
+		quote: "What a way to celebrate my birthday! I attended Innovation 2.0, and I'm still reeling from the experience. This gathering was truly a game-changer, and I feel so grateful to have been a part of it. From the moment I walked in, I knew I was in for something special. The energy in the room was electric, and the excitement was palpable. The speakers were absolutely phenomenal, sharing cutting-edge ideas and insights that left me in awe. I was fascinated by the innovative solutions presented, and I found myself scribbling notes furiously, eager to absorb every bit of knowledge. What struck me most was the diversity of perspectives and expertise. The event brought together individuals from various fields, all united by a passion for innovation and progress. Thank you to the organizers, volunteers, speakers, and fellow attendees for making it an unforgettable experience!",
 		name: "Suprise Jegede",
 		designation: "300 level ACU Student",
 		src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310257/innovation/organizer/surprise_3_yjpcn5.jpg",

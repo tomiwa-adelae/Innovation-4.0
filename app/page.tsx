@@ -12,6 +12,15 @@ import { Testimonials } from "@/components/Testimonials";
 const page = async ({ searchParams }: SearchParamProps) => {
 	const images = [
 		{
+			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575017/innovation/WhatsApp_Image_2025-04-13_at_8.37.44_PM_1_g5zsrt.jpg",
+		},
+		{
+			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575017/innovation/WhatsApp_Image_2025-04-13_at_8.37.47_PM_awa1ja.jpg",
+		},
+		{
+			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575016/innovation/WhatsApp_Image_2025-04-13_at_8.37.45_PM_1_piginm.jpg",
+		},
+		{
 			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307822/innovation/DSC_1108_uetvgq.jpg",
 		},
 		{

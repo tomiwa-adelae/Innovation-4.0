@@ -6,7 +6,7 @@ import { sponsors } from "@/constants";
 
 const Sponsors = () => {
 	return (
-		<div className="bg-white py-16 relative overflow-hidden">
+		<div className="bg-white py-8 relative overflow-hidden">
 			{/* <Spotlight /> */}
 			<SectionHeader title={"Sponsors & Partners"} />
 			<div className="container mt-8">
