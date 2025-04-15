@@ -367,7 +367,7 @@ export const organizers = [
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744724322/innovation/organizer/WhatsApp_Image_2025-04-15_at_12.27.42_PM_fbzyt1.jpg",
-		name: "Onaara Shobomi",
+		name: "Onaara Shokunbi",
 		title: "Assistant Welfare",
 	},
 	{
