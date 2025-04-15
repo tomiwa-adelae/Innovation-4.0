@@ -16,11 +16,11 @@ const page = async ({ searchParams }: SearchParamProps) => {
 	const page = Number(searchParams?.page) || 1;
 	const query = (searchParams?.query as string) || "";
 
-	const images = await getImages({ limit: 50 });
+	const images = await getImages({ limit: 300 });
 
 	return (
 		<div>
-			<GalleryShowcase images={images.data.slice(0, 10)} />
+			<GalleryShowcase images={images?.data.slice(0, 20)} />
 			<Gallery
 				title={"Captured Moments – Browse Our Gallery"}
 				description="Be part of a groundbreaking experience that will unlock new possibilities for your growth and innovation. Fill out the form below to register for Innovation 4.0 and take the next step toward transforming your future!"

@@ -45,7 +45,7 @@ export const AnimatedTestimonials = ({
 		return Math.floor(Math.random() * 21) - 10;
 	};
 	return (
-		<div className="antialiased lg:col-span-2 mt-16">
+		<div className="max-w-sm md:max-w-4xl mx-auto antialiased lg:col-span-2 mt-16">
 			<div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-20">
 				<div className="lg:col-span-2">
 					<div className="relative h-80 w-full">
@@ -89,7 +89,7 @@ export const AnimatedTestimonials = ({
 										width={1000}
 										height={1000}
 										draggable={false}
-										className="h-full w-full aspect-video rounded-3xl object-cover object-center mx-auto"
+										className="size-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-3xl object-cover object-center mx-auto"
 									/>
 								</motion.div>
 							))}

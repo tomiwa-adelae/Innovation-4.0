@@ -38,7 +38,7 @@ const OurVision = () => {
 			<div className="lg:col-span-2 flex items-center justify-center">
 				<Image
 					src={
-						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308706/innovation/DSC_1397-Joe_Photography_zvroub.jpg"
+						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744724898/innovation/WhatsApp_Image_2025-04-14_at_7.46.03_PM_isnqmz.jpg"
 					}
 					alt={"Innovation 3.0 image"}
 					width={1000}

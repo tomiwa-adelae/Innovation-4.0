@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "../ui/button";
+import React from "react";
 
 const Showcase = ({
 	bgImage,
@@ -12,8 +13,8 @@ const Showcase = ({
 }: {
 	bgImage: string;
 	headline: string | React.ReactNode;
-	description: string;
-	cta?: any;
+	description: string | React.ReactNode;
+	cta?: any; 
 	image?: string;
 	extras?: string[];
 	fullScreen?: boolean;

@@ -186,6 +186,12 @@ export const innovationLegacies = [
 			{
 				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575016/innovation/WhatsApp_Image_2025-04-13_at_8.37.45_PM_2_ntzfst.jpg",
 			},
+			{
+				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744724981/innovation/WhatsApp_Image_2025-04-14_at_8.00.40_PM_1_x5lsua.jpg",
+			},
+			{
+				src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744724875/innovation/WhatsApp_Image_2025-04-14_at_7.45.55_PM_i43uot.jpg",
+			},
 		],
 	},
 	{
@@ -360,7 +366,7 @@ export const organizers = [
 		title: "Welfare",
 	},
 	{
-		image: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744724322/innovation/organizer/WhatsApp_Image_2025-04-15_at_12.27.42_PM_fbzyt1.jpg",
 		name: "Onaara Shobomi",
 		title: "Assistant Welfare",
 	},
@@ -406,7 +412,7 @@ export const organizers = [
 		title: "Protocol",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575256/innovation/organizer/WhatsApp_Image_2025-04-13_at_3.51.58_PM_bt6tb5.jpg",
+		image: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
 		name: "Shadrach Orukpe",
 		title: "",
 	},
@@ -414,6 +420,11 @@ export const organizers = [
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744464605/innovation/organizer/WhatsApp_Image_2025-04-11_at_6.19.40_PM_wky5xa.jpg",
 		name: "Lolade Ayun",
 		title: "Host",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744724623/innovation/organizer/WhatsApp_Image_2025-04-15_at_11.16.54_AM_vaseh9.jpg",
+		name: "Esther Ohiani",
+		title: "Content Writer (Innovation conference)",
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311465/innovation/organizer/tomiwa-adelae_khh1k4.jpg",

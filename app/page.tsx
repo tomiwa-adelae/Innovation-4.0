@@ -9,7 +9,7 @@ import Speakers from "@/components/Speakers";
 import Sponsors from "@/components/Sponsors";
 import { Testimonials } from "@/components/Testimonials";
 
-const page = async ({ searchParams }: SearchParamProps) => {
+const page = async () => {
 	const images = [
 		{
 			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575017/innovation/WhatsApp_Image_2025-04-13_at_8.37.44_PM_1_g5zsrt.jpg",
@@ -24,7 +24,7 @@ const page = async ({ searchParams }: SearchParamProps) => {
 			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307822/innovation/DSC_1108_uetvgq.jpg",
 		},
 		{
-			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307860/innovation/DSC_1249_mewkon.jpg",
+			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744725668/innovation/WhatsApp_Image_2025-04-14_at_7.45.51_PM_ucve3u.jpg",
 		},
 		{
 			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307877/innovation/DSC_1269_uerpo3.jpg",
@@ -45,7 +45,7 @@ const page = async ({ searchParams }: SearchParamProps) => {
 			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308689/innovation/DSC_1383-Joe_Photography_ulwvwy.jpg",
 		},
 		{
-			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308706/innovation/DSC_1397-Joe_Photography_zvroub.jpg",
+			src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744725767/innovation/WhatsApp_Image_2025-04-14_at_6.30.48_PM_c8cjl9.jpg",
 		},
 	];
 

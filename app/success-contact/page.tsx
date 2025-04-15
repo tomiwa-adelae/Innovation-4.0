@@ -22,7 +22,7 @@ const page = async ({ searchParams }: PageProps) => {
 
 	if (!id) {
 		return (
-			<p className="text-center text-red-500">Invalid registration ID</p>
+			<p className="text-center text-red-500">Invalid contact ID</p>
 		);
 	}
 
@@ -38,9 +38,21 @@ const page = async ({ searchParams }: PageProps) => {
 						Message <ColourfulText text="Received!" />
 					</>
 				}
-				description={`Thank you for reaching out to us! Your message has been successfully submitted, and our team will get back to you as soon as possible. If your inquiry is urgent, feel free to contact us directly at ${email}.`}
+				description={
+					<>
+						Thank you for reaching out to us! Your message has been
+						successfully submitted, and our team will get back to
+						you as soon as possible. If your inquiry is urgent, feel
+						free to contact us directly at{" "}
+						<a className="hover:underline" href={`mailto:${email}`}>
+							{email}
+						</a>
+						.
+					</>
+				}
 				fullScreen={true}
 				bgImage="https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308706/innovation/DSC_1397-Joe_Photography_zvroub.jpg"
+				cta={[{ slug: "/", title: "Go back home" }]}
 			/>
 		</div>
 	);
