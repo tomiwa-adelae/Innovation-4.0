@@ -19,7 +19,7 @@ const page = () => {
 			<Showcase
 				headline="Get in Touch "
 				description="Have questions about Innovation 4.0? Interested in sponsorships, speaking opportunities, or partnerships? Reach out to us, and we’ll get back to you as soon as possible!"
-				bgImage="https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744724895/innovation/WhatsApp_Image_2025-04-14_at_7.46.02_PM_2_lunen1.jpg"
+				bgImage="https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575016/innovation/WhatsApp_Image_2025-04-13_at_8.37.46_PM_1_i5wqjo.jpg"
 				cta={[
 					{
 						title: "Chat on whatsapp",

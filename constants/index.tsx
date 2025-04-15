@@ -316,6 +316,11 @@ export const organizers = [
 		title: "Global Director",
 	},
 	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744739200/innovation/organizer/WhatsApp_Image_2025-04-15_at_6.43.02_PM_q8scmf.jpg",
+		name: "Shadrach Orukpe",
+		title: "Vice President (Cornerstone International Foundation)",
+	},
+	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310257/innovation/organizer/surprise_3_yjpcn5.jpg",
 		name: "Surprise Jegede",
 		title: "Public Relation Officer",
@@ -392,7 +397,7 @@ export const organizers = [
 		title: "Registration Team",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310257/innovation/organizer/WhatsApp_Image_2025-04-09_at_14.25.40_2fb5b53a_wn21ra.jpg",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744734166/innovation/organizer/WhatsApp_Image_2025-04-15_at_5.04.46_PM_gwjgks.jpg",
 		name: "Oyinkansola Ogunsanya",
 		title: "Publicity & PR",
 	},
@@ -404,17 +409,12 @@ export const organizers = [
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744387709/innovation/organizer/Screenshot_20250411_123732_Instagram-removebg_1_fqtk6v.png",
 		name: "Eyitayo Akinwale",
-		title: "Social Media",
+		title: "Social Media Manager",
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575216/innovation/organizer/WhatsApp_Image_2025-04-12_at_9.03.54_PM_g6fr5u.jpg",
 		name: "Aderogba Osasona",
-		title: "Protocol",
-	},
-	{
-		image: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
-		name: "Shadrach Orukpe",
-		title: "",
+		title: "Protocol Team Lead",
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744464605/innovation/organizer/WhatsApp_Image_2025-04-11_at_6.19.40_PM_wky5xa.jpg",
@@ -425,6 +425,11 @@ export const organizers = [
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744724623/innovation/organizer/WhatsApp_Image_2025-04-15_at_11.16.54_AM_vaseh9.jpg",
 		name: "Esther Ohiani",
 		title: "Content Writer (Innovation conference)",
+	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744738802/innovation/organizer/DSC_0531_xwdjsb.jpg",
+		name: "Iranwo A. Opadoja",
+		title: "Creative Director",
 	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311465/innovation/organizer/tomiwa-adelae_khh1k4.jpg",
