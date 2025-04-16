@@ -454,6 +454,12 @@ export const organizers = [
 ];
 
 export const testimonials = [
+{
+		quote: "I am Ayanbola Ayangbenro, a 300 level student of Ajayi Crowther University, Oyo. I attended a life-changing conference, an innovation 2:0 program organized by Mr Ogunjide John in my school in 2023, where I met inspiring speakers, including Ms. Elizabeth Samuel, founder of ELAB Academy. Her session on "The Power of Times and Seasons" focused on personal development and time management, which greatly impacted me. Connecting with Ms. Elizabeth during a networking session, at first, I remained where I was seated but later mustered the courage to approach her and connected with her. She shared her contact information and social media profile, which led to me reaching out to her on WhatsApp after the program. I introduced myself, mentioned our previous interaction, and offered my graphic design services. Ms. Elizabeth expressed interest in my work and asked me to share my designs. Although we didn't collaborate immediately. Months after we discussed, I reached out to her again reminding her of my graphic design services, but she told me her team was in need of a Virtual Assistant at that time. I was thrilled to take on the opportunity, and we've been working together ever since. I'm grateful for the innovation program, which introduced me to Ms. Elizabeth and led to this fulfilling collaboration. It's a testament to the power of networking.",
+		name: "Ayanbola Ayangbenro",
+		designation: "A 300 level student of Ajayi Crowther University",
+		src: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744804414/innovation/organizer/WhatsApp_Image_2025-04-15_at_9.41.52_PM_rdlp4j.jpg",
+	},
 	{
 		quote: "I was privileged to attend Innovation 2.0 and I must say all I learnt were truly inspiring and helpful. I was able to meet with top person's in the society who have successfully achieved their goals to a desirable point. Listening to them speak helped me plan what I wanted to achieve last year. I met with the youngest ECOWAS ambassador EMMANUEL AGIDA and I also won a cash price for being able to summarize what one of the speakers taught. Innovation is truly that conference that takes you from 1-100. I'm looking forward to this year's edition ❤",
 		name: "Emmanuella Adeposi",
