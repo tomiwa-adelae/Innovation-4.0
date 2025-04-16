@@ -22,9 +22,9 @@ export function GalleryShowcase({ images }: any) {
 				}}
 				className="z-50 flex flex-col justify-center items-center"
 			>
-				<motion.p className="text-3xl md:text-5xl lg:text-6xl font-bold uppercase bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 text-center mb-4">
+				<motion.h1 className="text-3xl md:text-5xl lg:text-6xl font-bold uppercase bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 text-center mb-4">
 					Innovation 4.0 <br /> Gallery
-				</motion.p>
+				</motion.h1>
 				<Button asChild size={"lg"}>
 					<Link href="/register">
 						<span>Join us for the next chapter</span>
