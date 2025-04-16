@@ -341,7 +341,7 @@ export const organizers = [
 		title: "Speakers Management",
 	},
 	{
-		image: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744803036/innovation/organizer/WhatsApp_Image_2025-04-15_at_11.10.24_PM_ltqrt7.jpg",
 		name: "Tomi Oluyamo",
 		title: "Speakers Management",
 	},
@@ -441,11 +441,15 @@ export const organizers = [
 		name: "Shade Akinteye",
 		title: "Project-based Learning Coordinator (School of Innovation)",
 	},
-
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744312164/innovation/organizer/WhatsApp_Image_2025-04-10_at_20.08.57_b8011e59_ua3vzo.jpg",
 		name: "Kemi Akinteye",
 		title: "Financial Team Lead (School of Innovation)",
+	},	
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744803015/innovation/organizer/WhatsApp_Image_2025-04-15_at_8.24.50_PM_oynzll.jpg",
+		name: "Peace Emmanuel",
+		title: "",
 	},
 ];
 
