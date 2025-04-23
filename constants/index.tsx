@@ -496,8 +496,16 @@ export const sponsors = [
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
 	},
 	{
-		name: "MSME Africa",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
+		name: "Kollegescout",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1745401621/innovation/organizer/kollegescout_3-01_wydbw8.png",
+	},
+	{
+		name: "Ajayi Crowther University Student Assembly",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1745401553/innovation/organizer/WhatsApp_Image_2025-04-23_at_9.03.48_AM_ftyivj.jpg",
+	},
+	{
+		name: "Crownstar city real estate",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1745401619/innovation/organizer/WhatsApp_Image_2025-04-23_at_7.49.37_AM_wxakgc.jpg",
 	},
 	{
 		name: "APEX Network",
@@ -510,21 +518,5 @@ export const sponsors = [
 	{
 		name: "APEX Network",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
-	},
-	{
-		name: "MSME Africa",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
-	},
-	{
-		name: "APEX Network",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
-	},
-	{
-		name: "MSME Africa",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
-	},
-	{
-		name: "APEX Network",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
-	},
+	}
 ];
