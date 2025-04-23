@@ -451,6 +451,11 @@ export const organizers = [
 		name: "Peace Emmanuel",
 		title: "",
 	},
+	{
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1745432853/innovation/organizer/WhatsApp_Image_2025-04-23_at_5.24.48_PM_gokrlt.jpg",
+		name: "Adeola Adedeji",
+		title: "",
+	},
 ];
 
 export const testimonials = [
