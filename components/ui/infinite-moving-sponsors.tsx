@@ -102,8 +102,8 @@ export const InfiniteMovingSponsors = ({
 						<Image
 							src={item.image}
 							alt={item.name}
-							width={70}
-							height={70}
+							width={120}
+							height={120}
 							className="size-full object-cover"
 						/>
 					</li>
