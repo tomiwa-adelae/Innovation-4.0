@@ -445,7 +445,7 @@ export const organizers = [
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744312164/innovation/organizer/WhatsApp_Image_2025-04-10_at_20.08.57_b8011e59_ua3vzo.jpg",
 		name: "Kemi Akinteye",
 		title: "Financial Team Lead (School of Innovation)",
-	},	
+	},
 	{
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744803015/innovation/organizer/WhatsApp_Image_2025-04-15_at_8.24.50_PM_oynzll.jpg",
 		name: "Peace Emmanuel",
@@ -459,7 +459,7 @@ export const organizers = [
 ];
 
 export const testimonials = [
-{
+	{
 		quote: "I am Ayanbola Ayangbenro, a 300 level student of Ajayi Crowther University, Oyo. I attended a life-changing conference, an innovation 2:0 program organized by Mr Ogunjide John in my school in 2023, where I met inspiring speakers, including Ms. Elizabeth Samuel, founder of ELAB Academy. Her session on 'The Power of Times and Seasons' focused on personal development and time management, which greatly impacted me. Connecting with Ms. Elizabeth during a networking session, at first, I remained where I was seated but later mustered the courage to approach her and connected with her. She shared her contact information and social media profile, which led to me reaching out to her on WhatsApp after the program. I introduced myself, mentioned our previous interaction, and offered my graphic design services. Ms. Elizabeth expressed interest in my work and asked me to share my designs. Although we didn't collaborate immediately. Months after we discussed, I reached out to her again reminding her of my graphic design services, but she told me her team was in need of a Virtual Assistant at that time. I was thrilled to take on the opportunity, and we've been working together ever since. I'm grateful for the innovation program, which introduced me to Ms. Elizabeth and led to this fulfilling collaboration. It's a testament to the power of networking.",
 		name: "Ayanbola Ayangbenro",
 		designation: "A 300 level student of Ajayi Crowther University",
@@ -512,16 +512,4 @@ export const sponsors = [
 		name: "Crownstar city real estate",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1745401619/innovation/organizer/WhatsApp_Image_2025-04-23_at_7.49.37_AM_wxakgc.jpg",
 	},
-	{
-		name: "APEX Network",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
-	},
-	{
-		name: "MSME Africa",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
-	},
-	{
-		name: "APEX Network",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744650010/innovation/organizer/Apex_Logo_wvwego.jpg",
-	}
 ];
