@@ -512,4 +512,8 @@ export const sponsors = [
 		name: "Crownstar city real estate",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1745401619/innovation/organizer/WhatsApp_Image_2025-04-23_at_7.49.37_AM_wxakgc.jpg",
 	},
+	{
+		name: "EDUSPUR",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1745677836/innovation/organizer/LOGO_rfvflm.png",
+	},
 ];
