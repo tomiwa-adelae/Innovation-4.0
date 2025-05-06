@@ -516,4 +516,9 @@ export const sponsors = [
 		name: "EDUSPUR",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1745677836/innovation/organizer/LOGO_rfvflm.png",
 	},
+	{
+		name: "The Valokafor Company",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1746539170/innovation/organizer/IMG-20210504-WA0036_uvaw9k.jpg",
+	},
+
 ];
