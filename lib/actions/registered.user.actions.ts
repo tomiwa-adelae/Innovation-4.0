@@ -17,6 +17,12 @@ export const getAttendances = async () => {
 	try {
 		await connectToDatabase();
 
+		await RegisteredUser.updateMany(
+			{ markAttendance: { $exists: false } },
+			{ $set: { markAttendance: false } }
+		);
+		console.log("Migration complete");
+
 		const attendances = await RegisteredUser.find();
 
 		return {
@@ -46,12 +52,17 @@ export const markAttendance = async (id: string) => {
 
 		// revalidatePath("/admin/attendances");
 
+		// await RegisteredUser.updateMany(
+		// 	{ markAttendance: { $exists: false } },
+		// 	{ $set: { markAttendance: false } }
+		// );
+
+		// console.log("Done");
 		await RegisteredUser.updateMany(
 			{ markAttendance: { $exists: false } },
 			{ $set: { markAttendance: false } }
 		);
-
-		console.log("Done");
+		console.log("Migration complete");
 		// return { status: 200 };
 	} catch (error) {
 		handleError(error);
