@@ -63,13 +63,18 @@ export const speakers = [
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744388072/innovation/speakers/LOG_6293_2_aggyic.jpg",
 	},
 	{
+		name: "Dom-Okeke Miracle",
+		portfolio: "CEO - DOM Clothings",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1747074364/innovation/speakers/IMG_2547_fvspwo.jpg",
+	},
+	{
 		name: "Victor Otegbade",
-		portfolio: "",
+		portfolio: "Drama Minister and edirotr",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744388095/innovation/speakers/Victor_Otegz_1_pif8tx.jpg",
 	},
 	{
 		name: "John Ogunjide",
-		portfolio: "Convener",
+		portfolio: "Convener of Innovation",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308382/innovation/DSC_1065_pp4qio.jpg",
 	},
 	{

@@ -97,10 +97,10 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 							opacity: current === index ? 1 : 0.5,
 						}}
 						alt={name}
-						// src={image}
-						src={
-							"https://previews.123rf.com/images/glebstock/glebstock1606/glebstock160600132/58912872-hidden-face-in-the-shadow-male-person-silhouette.jpg"
-						}
+						src={image}
+						// src={
+						// 	"https://previews.123rf.com/images/glebstock/glebstock1606/glebstock160600132/58912872-hidden-face-in-the-shadow-male-person-silhouette.jpg"
+						// }
 						onLoad={imageLoaded}
 						loading="eager"
 						decoding="sync"

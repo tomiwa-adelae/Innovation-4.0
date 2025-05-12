@@ -8,6 +8,7 @@ export interface IRegisteredUser extends Document {
 	institution?: string;
 	organization?: string;
 	hearAboutUs?: string;
+	markAttendance?: boolean;
 	additionalNotes?: string;
 }
 
@@ -20,6 +21,7 @@ const RegisteredUserSchema = new Schema<IRegisteredUser>(
 		institution: { type: String },
 		organization: { type: String },
 		hearAboutUs: { type: String },
+		markAttendance: { type: String, required: true, default: false },
 		additionalNotes: { type: String },
 	},
 	{ timestamps: true }

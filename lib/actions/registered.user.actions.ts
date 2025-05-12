@@ -6,11 +6,57 @@ import RegisteredUser from "../database/models/registered.user.model";
 import { handleError } from "../utils";
 
 import Mailjet from "node-mailjet";
+import { revalidatePath } from "next/cache";
 
 const mailjet = Mailjet.apiConnect(
 	process.env.MAILJET_API_PUBLIC_KEY!,
 	process.env.MAILJET_API_PRIVATE_KEY!
 );
+
+export const getAttendances = async () => {
+	try {
+		await connectToDatabase();
+
+		const attendances = await RegisteredUser.find();
+
+		return {
+			status: 200,
+			attendances: JSON.parse(JSON.stringify(attendances)),
+		};
+	} catch (error) {
+		handleError(error);
+	}
+};
+
+export const markAttendance = async (id: string) => {
+	try {
+		await connectToDatabase();
+
+		// const attendance = await RegisteredUser.findById(id);
+
+		// if (!attendance)
+		// 	return {
+		// 		status: 400,
+		// 		message: "Oops! User not found.",
+		// 	};
+
+		// attendance.markAttendance = true;
+
+		// await attendance.save();
+
+		// revalidatePath("/admin/attendances");
+
+		await RegisteredUser.updateMany(
+			{ markAttendance: { $exists: false } },
+			{ $set: { markAttendance: false } }
+		);
+
+		console.log("Done");
+		// return { status: 200 };
+	} catch (error) {
+		handleError(error);
+	}
+};
 
 export const registerUser = async (user: RegisteredUserParams) => {
 	try {
