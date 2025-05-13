@@ -30,3 +30,7 @@ export const RegistrationFormSchema = z.object({
 	institution: z.string().optional(),
 	organization: z.string().optional(),
 });
+
+export const AddNewAttendanceFormSchema = z.object({
+	name: z.string().min(2, { message: "Name must be at least 2 characters." }),
+});

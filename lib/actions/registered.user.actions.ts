@@ -7,23 +7,60 @@ import { handleError } from "../utils";
 
 import Mailjet from "node-mailjet";
 import { revalidatePath } from "next/cache";
+import { v4 as uuidv4 } from "uuid";
 
 const mailjet = Mailjet.apiConnect(
 	process.env.MAILJET_API_PUBLIC_KEY!,
 	process.env.MAILJET_API_PRIVATE_KEY!
 );
 
-export const getAttendances = async () => {
+export const getAttendances = async ({ query }: { query: string }) => {
 	try {
 		await connectToDatabase();
 
-		await RegisteredUser.updateMany(
-			{ markAttendance: { $exists: false } },
-			{ $set: { markAttendance: false } }
-		);
-		console.log("Migration complete");
+		const keyword = query
+			? {
+					$or: [
+						{
+							name: {
+								$regex: query,
+								$options: "i",
+							},
+						},
+						{
+							email: {
+								$regex: query,
+								$options: "i",
+							},
+						},
+						{
+							phoneNumber: {
+								$regex: query,
+								$options: "i",
+							},
+						},
+						{
+							institution: {
+								$regex: query,
+								$options: "i",
+							},
+						},
+						{
+							organization: {
+								$regex: query,
+								$options: "i",
+							},
+						},
+					],
+			  }
+			: {};
 
-		const attendances = await RegisteredUser.find();
+		const attendances = await RegisteredUser.find({
+			...keyword,
+			markAttendance: false,
+		}).sort({
+			name: 1,
+		});
 
 		return {
 			status: 200,
@@ -38,32 +75,69 @@ export const markAttendance = async (id: string) => {
 	try {
 		await connectToDatabase();
 
-		// const attendance = await RegisteredUser.findById(id);
+		const attendance = await RegisteredUser.findById(id);
 
-		// if (!attendance)
-		// 	return {
-		// 		status: 400,
-		// 		message: "Oops! User not found.",
-		// 	};
+		if (!attendance)
+			return {
+				status: 400,
+				message: "Oops! User not found.",
+			};
 
-		// attendance.markAttendance = true;
+		attendance.markAttendance = true;
 
-		// await attendance.save();
+		await attendance.save();
 
-		// revalidatePath("/admin/attendances");
+		revalidatePath("/admin/attendance");
 
-		// await RegisteredUser.updateMany(
-		// 	{ markAttendance: { $exists: false } },
-		// 	{ $set: { markAttendance: false } }
-		// );
+		return { status: 200 };
+	} catch (error) {
+		handleError(error);
+	}
+};
 
-		// console.log("Done");
-		await RegisteredUser.updateMany(
-			{ markAttendance: { $exists: false } },
-			{ $set: { markAttendance: false } }
-		);
-		console.log("Migration complete");
-		// return { status: 200 };
+export const AddAttendance = async (user: AddAttendanceParams) => {
+	try {
+		await connectToDatabase();
+
+		if (!user.name)
+			return {
+				status: 400,
+				message: "Oops! Your name is required.",
+			};
+
+		const userExist = await RegisteredUser.findOne({ name: user.name });
+
+		if (userExist)
+			return {
+				status: 400,
+				message:
+					"Oops! You have already registered with this email. Please search for name and mark as attended.",
+			};
+
+		const newUser = {
+			name: user.name,
+			email: user.email || uuidv4(),
+			phoneNumber: user.phoneNumber || uuidv4(),
+			additionalNotes: user.additionalNotes,
+			institution: user.institution,
+			hearAboutUs: user.hearAboutUs,
+			organization: user.organization,
+			markAttendance: true,
+		};
+
+		const registeredUser = await RegisteredUser.create(newUser);
+
+		if (!registeredUser)
+			return {
+				status: 400,
+				message: "Oops! User is not found.",
+			};
+
+		return {
+			status: 200,
+			attendance: JSON.parse(JSON.stringify(registeredUser)),
+			message: "You have been verified. Please enjoy the conference",
+		};
 	} catch (error) {
 		handleError(error);
 	}
@@ -141,6 +215,8 @@ export const registerUser = async (user: RegisteredUserParams) => {
 		return {
 			status: 200,
 			registeredUser: JSON.parse(JSON.stringify(registeredUser)),
+			message:
+				"You have been successfully registered. Please enjoy the conference",
 		};
 	} catch (error) {
 		handleError(error);

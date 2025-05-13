@@ -244,8 +244,8 @@ const RegistrationForm = () => {
 							type="submit"
 						>
 							{form.formState.isSubmitting
-								? "Sending..."
-								: "Send message"}
+								? "Submitting..."
+								: "Submit"}
 						</Button>
 					</form>
 				</Form>

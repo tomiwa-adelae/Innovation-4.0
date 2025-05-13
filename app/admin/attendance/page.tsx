@@ -1,3 +1,8 @@
+import {
+	AddNewAttendance,
+	AddNewAttendanceModal,
+} from "@/components/AddNewAttendance";
+import SearchBar from "@/components/forms/Searchbar";
 import { MarkAttendanceButton } from "@/components/MarkAttendanceButton";
 import SectionHeader from "@/components/shared/SectionHeader";
 import {
@@ -10,8 +15,9 @@ import {
 } from "@/components/ui/table";
 import { getAttendances } from "@/lib/actions/registered.user.actions";
 
-const page = async () => {
-	const attendances = await getAttendances();
+const page = async ({ searchParams }: SearchParamProps) => {
+	const query = (searchParams?.query as string) || "";
+	const attendances = await getAttendances({ query });
 
 	return (
 		<div className="py-10">
@@ -19,7 +25,11 @@ const page = async () => {
 				title={"Attendances for Innovation 4.0"}
 				description={`16th of May, 2025`}
 			/>
-			<div className="mt-8 container min-h-[90vh]">
+			<div className="mt-6 container min-h-[90vh]">
+				<div className="flex items-center justify-between mb-6">
+					<SearchBar />
+					<AddNewAttendanceModal />
+				</div>
 				<Table>
 					<TableHeader>
 						<TableRow>
@@ -43,11 +53,15 @@ const page = async () => {
 								<TableCell>{attendance.email}</TableCell>
 								<TableCell>{attendance.phoneNumber}</TableCell>
 
-								<MarkAttendanceButton id={attendance._id} />
+								<MarkAttendanceButton
+									attendance={attendance.markAttendance}
+									id={attendance._id}
+								/>
 							</TableRow>
 						))}
 					</TableBody>
 				</Table>
+				<AddNewAttendance attendances={attendances?.attendances} />
 			</div>
 		</div>
 	);
