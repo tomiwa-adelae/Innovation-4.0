@@ -120,10 +120,10 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
 					}`}
 				>
 					<h2 className="text-xl lg:text-2xl font-semibold relative uppercase mb-2">
-						{/* {name} */}
+						{name}
 					</h2>
 					<h4 className="text-gray-100 font-medium text-sm">
-						{/* {portfolio} */}
+						{portfolio}
 					</h4>
 				</article>
 			</li>

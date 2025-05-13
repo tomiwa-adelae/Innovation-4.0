@@ -79,6 +79,15 @@ export const registerUser = async (user: RegisteredUserParams) => {
 				message: "Oops! Your name & email is required.",
 			};
 
+		const userExist = await RegisteredUser.findOne({ email: user.email });
+
+		if (userExist)
+			return {
+				status: 400,
+				message:
+					"Oops! You have already registered with this email. Please wait till the 16th of May and enjoy the conference.",
+			};
+
 		const registeredUser = await RegisteredUser.create(user);
 
 		if (!registeredUser)
