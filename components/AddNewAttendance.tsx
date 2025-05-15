@@ -141,8 +141,8 @@ export function AddNewAttendanceModal() {
 											type={"email"}
 											placeholder="Enter email"
 											value={email}
-											onChange={(email) => {
-												setEmail(email);
+											onChange={(e) => {
+												setEmail(e.target.value);
 											}}
 										/>
 									</div>
