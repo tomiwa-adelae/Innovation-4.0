@@ -49,7 +49,7 @@ export const innovationFour = [
 		name: "Light bulb",
 	},
 	{
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744573222/innovation/WhatsApp_Image_2025-04-13_at_8.36.31_PM_zaxsoa.jpg",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308596/innovation/DSC_1389-Joe_Photography_kctlnm.jpg",
 		title: "Exclusive Giveaways & Certifications",
 		description: "Earn recognition for your participation.",
 		name: "Certification",
