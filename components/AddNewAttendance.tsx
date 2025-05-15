@@ -140,7 +140,7 @@ export function AddNewAttendanceModal() {
 										<Input
 											type={"email"}
 											placeholder="Enter email"
-											value={phoneNumber}
+											value={email}
 											onChange={(email) => {
 												setEmail(email);
 											}}
