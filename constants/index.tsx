@@ -77,11 +77,6 @@ export const speakers = [
 		portfolio: "Convener of Innovation",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308382/innovation/DSC_1065_pp4qio.jpg",
 	},
-	{
-		name: "Samuel Elizabeth",
-		portfolio: "",
-		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308684/innovation/DSC_1373-Joe_Photography_abvuyo.jpg",
-	},
 ];
 
 export const enquiriesImages = [
