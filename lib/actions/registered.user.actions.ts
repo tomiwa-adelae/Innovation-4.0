@@ -57,7 +57,6 @@ export const getAttendances = async ({ query }: { query: string }) => {
 
 		const attendances = await RegisteredUser.find({
 			...keyword,
-			markAttendance: false,
 		}).sort({
 			name: 1,
 		});
