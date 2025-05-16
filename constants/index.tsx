@@ -492,6 +492,10 @@ export const testimonials = [
 ];
 
 export const sponsors = [
+{
+		name: "The Phoneprenuer Global",
+		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1747400132/innovation/organizer/LOGO_UPDATE-04_oixvem.png",
+	},
 	{
 		name: "MSME Africa",
 		image: "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744463210/innovation/speakers/MSME-Africa-logo_uexpmv.png",
