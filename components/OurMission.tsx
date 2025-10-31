@@ -2,22 +2,22 @@ import Image from "next/image";
 import SectionHeader from "./shared/SectionHeader";
 
 const OurMission = () => {
-	return (
-		<div className="container pt-10 md:pt-16 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative overflow-hidden">
-			<div className="lg:col-span-2 flex items-center justify-center order-2">
-				<Image
-					src={
-						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307877/innovation/DSC_1269_uerpo3.jpg"
-					}
-					alt={"Innovation 3.0 image"}
-					width={1000}
-					height={1000}
-					className="w-full h-full rounded-lg aspect-video object-cover"
-				/>
-			</div>
-			<div className="lg:col-span-2 order-1 md:order-2 flex items-start justify-center flex-col">
-				<SectionHeader isContainer={false} title={"Our Mission"} />
-				<p className="text-base mt-4">
+  return (
+    <div className="container pt-10 md:pt-16 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative overflow-hidden">
+      <div className="lg:col-span-2 flex items-center justify-center order-2">
+        <Image
+          src={
+            "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744307877/innovation/DSC_1269_uerpo3.jpg"
+          }
+          alt={"Innovation 3.0 image"}
+          width={1000}
+          height={1000}
+          className="w-full h-full rounded-lg aspect-video object-cover"
+        />
+      </div>
+      <div className="lg:col-span-2 order-1 md:order-2 flex items-start justify-center flex-col">
+        <SectionHeader isContainer={false} title={"Our Mission"} />
+        {/* <p className="text-base mt-4">
 					At the heart of our mission is the commitment to reproducing
 					leaders who are not only equipped with knowledge and skills
 					but are also grounded in ethics, values, and morals. Through
@@ -41,10 +41,24 @@ const OurMission = () => {
 					participants emerge not only with a deeper understanding of
 					global issues but also with a sense of empowerment to effect
 					meaningful change in their communities and beyond.
-				</p>
-			</div>
-		</div>
-	);
+				</p> */}
+        <p className="text-base mt-4">
+          Our mission is to empower Africa’s next generation of innovators,
+          creators, and entrepreneurs — providing the tools, mentorship, and
+          ecosystem they need to build scalable, impactful startups. Through our
+          annual Innovation Conference, incubation programs, and innovation
+          challenges, we connect bright minds with investors, technology
+          leaders, and change-makers who believe in Africa’s potential.
+          <br />
+          <br />
+          We exist to spark ideas and transform them into sustainable ventures —
+          bridging creativity, technology, and purpose. By creating a thriving
+          community of problem-solvers, we’re building the foundation for a
+          future where African solutions shape the global narrative.
+        </p>
+      </div>
+    </div>
+  );
 };
 
 export default OurMission;

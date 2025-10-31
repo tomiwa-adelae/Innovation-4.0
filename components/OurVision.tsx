@@ -2,11 +2,11 @@ import Image from "next/image";
 import SectionHeader from "./shared/SectionHeader";
 
 const OurVision = () => {
-	return (
-		<div className="container pt-10 md:pt-16 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-			<div className="lg:col-span-2 flex items-start justify-center flex-col">
-				<SectionHeader isContainer={false} title={"Our Vision"} />
-				<p className="text-base mt-4">
+  return (
+    <div className="container pt-10 md:pt-16 pb-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="lg:col-span-2 flex items-start justify-center flex-col">
+        <SectionHeader isContainer={false} title={"Our Vision"} />
+        {/* <p className="text-base mt-4">
 					The vision emerging from this approach is to cultivate a
 					global community of ethical, empowered leaders who are
 					deeply committed to positive change and collective progress.
@@ -33,21 +33,36 @@ const OurVision = () => {
 					navigating the complexities of our interconnected world
 					while embracing diversity and inclusivity as fundamental
 					principles.
-				</p>
-			</div>
-			<div className="lg:col-span-2 flex items-center justify-center">
-				<Image
-					src={
-						"https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744724898/innovation/WhatsApp_Image_2025-04-14_at_7.46.03_PM_isnqmz.jpg"
-					}
-					alt={"Innovation 3.0 image"}
-					width={1000}
-					height={1000}
-					className="w-full h-full rounded-lg aspect-video object-cover"
-				/>
-			</div>
-		</div>
-	);
+				</p> */}
+        <p className="text-base mt-4">
+          Our vision is to build Africa’s most vibrant innovation ecosystem —
+          one where creativity meets opportunity, and every young visionary has
+          access to the resources needed to turn ideas into impact.
+          <br />
+          <br />
+          We envision a continent where startups born out of curiosity and
+          collaboration redefine industries, create jobs, and drive inclusive
+          growth.
+          <br />
+          <br />
+          Through mentorship, partnerships, and continuous learning, we aim to
+          inspire a generation of leaders who are bold enough to innovate
+          locally and compete globally — shaping a sustainable future for all.
+        </p>
+      </div>
+      <div className="lg:col-span-2 flex items-center justify-center">
+        <Image
+          src={
+            "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744724898/innovation/WhatsApp_Image_2025-04-14_at_7.46.03_PM_isnqmz.jpg"
+          }
+          alt={"Innovation 3.0 image"}
+          width={1000}
+          height={1000}
+          className="w-full h-full rounded-lg aspect-video object-cover"
+        />
+      </div>
+    </div>
+  );
 };
 
 export default OurVision;
