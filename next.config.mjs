@@ -18,6 +18,11 @@ const nextConfig = {
                    hostname: 'icon-library.com',
                    port: ''
                },
+               {
+                   protocol: 'https',
+                   hostname: 'innovation-gilt.vercel.app',
+                   port: ''
+               },
    
            ]
        }

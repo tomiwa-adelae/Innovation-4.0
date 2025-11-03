@@ -16,6 +16,10 @@ export const navLinks = [
     title: "Gallery",
   },
   {
+    slug: "/school-of-innovation",
+    title: "School of Innovation",
+  },
+  {
     slug: "/register",
     title: "Register now",
   },
@@ -60,7 +64,40 @@ export const innovationFour = [
   },
 ];
 
+// School of Innovation
+// it equips nigerian youth with essential tech and digital literacy transforming them into resillent innovators who apply digital skills or entrprenuership career guidance and real world problem solving for broader societal advancement. The School of Innovation exists to bridge the gap between ideas, education, and real-world innovation by equipping young Africans with the skills, mindset, and tools to thrive in the digital and creative economy.
+
+// Its vision is to become Africa’s leading hub for innovation-driven learning, empowering students and professionals to build solutions, launch startups, and lead transformation in their communities.
+
+// School of Innovation refers to an educational institution or program focused on fostering innovation, creativity, and real world problem solving through building an accredited university dedicated to the study and application of innovation across disciplines.
+
+// Courses we teach
+// • Digital Marketing
+// • Social Media Management
+// • Public Speaking
+// • CV Writing
+// •Ghost Writing
+// • Financial Literacy
+
 export const speakers = [
+  {
+    name: "Mr. Seye Olurotimi",
+    portfolio: "Founder, MSME Africa",
+    image:
+      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744575017/innovation/WhatsApp_Image_2025-04-13_at_8.37.44_PM_1_g5zsrt.jpg",
+  },
+  {
+    name: "Emmanuel Agida",
+    portfolio: "ECOWAS Youth Ambassador",
+    image:
+      "https://innovation-gilt.vercel.app/_next/image?url=%2Femmanuel-agida.jpg&w=1080&q=75",
+  },
+  {
+    name: "Elizabeth Samuel",
+    portfolio: "Award winning Book Editor and Write",
+    image:
+      "https://innovation-gilt.vercel.app/_next/image?url=%2Felizabeth-samuel.jpg&w=1080&q=75",
+  },
   {
     name: "Jimmy Ikanke",
     portfolio: "Lawyer & Associate at Olaniwun L.P",
@@ -89,7 +126,8 @@ export const speakers = [
 
 export const enquiriesImages = [
   "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369177/innovation/organizer/WhatsApp_Image_2025-04-11_at_11.17.28_AM_hv7ddp.jpg",
-  "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310251/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.04.17_9c2da4b9_rlh41r.jpg",
+  // "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310251/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.04.17_9c2da4b9_rlh41r.jpg",
+  "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311465/innovation/organizer/tomiwa-adelae_khh1k4.jpg",
   "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310255/innovation/organizer/WhatsApp_Image_2025-04-09_at_13.15.43_b081eb93_oltc5x.jpg",
 ];
 
@@ -370,12 +408,12 @@ export const organizers = [
     name: "Chidubem Anokwute",
     title: "President (Innovation Conference, Ajayi Crowther University)",
   },
-  {
-    image:
-      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310251/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.04.17_9c2da4b9_rlh41r.jpg",
-    name: "Flourish Olunuibi",
-    title: "Vice-president (School of Innovation)",
-  },
+  // {
+  //   image:
+  //     "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310251/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.04.17_9c2da4b9_rlh41r.jpg",
+  //   name: "Flourish Olunuibi",
+  //   title: "Vice-president (School of Innovation)",
+  // },
   {
     image:
       "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744623770/innovation/organizer/WhatsApp_Image_2025-04-14_at_12.09.33_AM_iobw2i.jpg",
@@ -400,12 +438,12 @@ export const organizers = [
     name: "Surprise Jegede",
     title: "Public Relation Officer",
   },
-  {
-    image:
-      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369177/innovation/organizer/WhatsApp_Image_2025-04-11_at_11.17.28_AM_hv7ddp.jpg",
-    name: "Susan Alabi",
-    title: "Volunteer's Team Lead",
-  },
+  // {
+  //   image:
+  //     "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369177/innovation/organizer/WhatsApp_Image_2025-04-11_at_11.17.28_AM_hv7ddp.jpg",
+  //   name: "Susan Alabi",
+  //   title: "Volunteer's Team Lead",
+  // },
   {
     image:
       "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310258/innovation/organizer/WhatsApp_Image_2025-04-09_at_13.27.54_ec14b81a_gshwgt.jpg",
@@ -424,30 +462,30 @@ export const organizers = [
     name: "Tomi Oluyamo",
     title: "Speakers Management",
   },
-  {
-    image:
-      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369189/innovation/organizer/20250202-DSC08358_fxuqef.jpg",
-    name: "Ifeoluwani Adeleke",
-    title: "Director of Media",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310252/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.11.27_c064f20f_ambue6.jpg",
-    name: "Saliu Rilwan",
-    title: "Media Team",
-  },
+  // {
+  //   image:
+  //     "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744369189/innovation/organizer/20250202-DSC08358_fxuqef.jpg",
+  //   name: "Ifeoluwani Adeleke",
+  //   title: "Director of Media",
+  // },
+  // {
+  //   image:
+  //     "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310252/innovation/organizer/WhatsApp_Image_2025-04-09_at_11.11.27_c064f20f_ambue6.jpg",
+  //   name: "Saliu Rilwan",
+  //   title: "Media Team",
+  // },
   {
     image:
       "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744477269/innovation/organizer/WhatsApp_Image_2025-04-12_at_11.01.31_AM_txqmim.jpg",
     name: "Sallie Uju-Njoku",
     title: "Media Team",
   },
-  {
-    image:
-      "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310252/innovation/organizer/IMG_1179_wfburu.jpg",
-    name: "Akinjide Akinwumi",
-    title: "Media Team",
-  },
+  // {
+  //   image:
+  //     "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310252/innovation/organizer/IMG_1179_wfburu.jpg",
+  //   name: "Akinjide Akinwumi",
+  //   title: "Media Team",
+  // },
   {
     image:
       "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310249/innovation/organizer/WhatsApp_Image_2025-04-09_at_14.33.39_6bd5e4f8_mdbqbs.jpg",
@@ -545,18 +583,18 @@ export const organizers = [
     name: "Kemi Akinteye",
     title: "Financial Team Lead (School of Innovation)",
   },
-  {
-    image:
-      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744803015/innovation/organizer/WhatsApp_Image_2025-04-15_at_8.24.50_PM_oynzll.jpg",
-    name: "Peace Emmanuel",
-    title: "",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1745432853/innovation/organizer/WhatsApp_Image_2025-04-23_at_5.24.48_PM_gokrlt.jpg",
-    name: "Adeola Adedeji",
-    title: "",
-  },
+  // {
+  //   image:
+  //     "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744803015/innovation/organizer/WhatsApp_Image_2025-04-15_at_8.24.50_PM_oynzll.jpg",
+  //   name: "Peace Emmanuel",
+  //   title: "",
+  // },
+  // {
+  //   image:
+  //     "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1745432853/innovation/organizer/WhatsApp_Image_2025-04-23_at_5.24.48_PM_gokrlt.jpg",
+  //   name: "Adeola Adedeji",
+  //   title: "",
+  // },
 ];
 
 export const testimonials = [
