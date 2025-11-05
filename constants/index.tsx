@@ -597,6 +597,50 @@ export const organizers = [
   // },
 ];
 
+export const soiOrganizers = [
+  {
+    image:
+      "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310251/innovation/organizer/WhatsApp_Image_2025-04-10_at_09.45.59_0ede9c77_dpr33d.jpg",
+    name: "Oloyede Joy",
+    title: "Head of Programs",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311465/innovation/organizer/tomiwa-adelae_khh1k4.jpg",
+    name: "Adelae Tomiwa",
+    title: "Head of Tech and Product",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310257/innovation/organizer/surprise_3_yjpcn5.jpg",
+    name: "Jegede Surprise",
+    title: "Head, Operation and Administration",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744311935/innovation/organizer/WhatsApp_Image_2025-04-10_at_20.04.42_2d7d0f47_fig9tg.jpg",
+    name: "Akinteye Shade",
+    title: "Head, Finance and Grants Department",
+  },
+  {
+    image: "/assets/images/eyitayo-akinwale.jpg",
+    name: "Akinwale Eyitayo",
+    title: "Head, Communication and Branding Department",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744623770/innovation/organizer/WhatsApp_Image_2025-04-14_at_12.09.33_AM_iobw2i.jpg",
+    name: "Samuel Marvellous",
+    title: "Research and Innovation Lab",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744310255/innovation/organizer/WhatsApp_Image_2025-04-09_at_13.15.43_b081eb93_oltc5x.jpg",
+    name: "Ewaoluwanimi Omotosho",
+    title: "Head, Legal and policy unit",
+  },
+];
+
 export const testimonials = [
   {
     quote:

@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Spotlight } from "@/components/ui/spotlight-new";
 import SectionHeader from "@/components/shared/SectionHeader";
 import Image from "next/image";
-import { organizers } from "@/constants";
+import { organizers, soiOrganizers } from "@/constants";
 import Team from "@/components/Team";
 
 import {
@@ -118,10 +118,12 @@ const Page = () => {
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
           >
-            <img
-              src="/assets/images/logo.png"
+            <Image
+              width={1000}
+              height={1000}
+              src="https://innovation-gilt.vercel.app/_next/static/media/showcase.c4d8cd05.jpg"
               alt="School of Innovation"
-              className="rounded-2xl shadow-lg w-full object-cover"
+              className="rounded-2xl shadow-lg size-full object-cover"
             />
           </motion.div>
 
@@ -209,9 +211,7 @@ const Page = () => {
         <SectionHeader title={"Meet The Team"} position="center" />
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
           <Image
-            src={
-              "https://res.cloudinary.com/dh0rc6p1c/image/upload/v1744308382/innovation/DSC_1065_pp4qio.jpg"
-            }
+            src={"/assets/images/john-ogunjide.jpg"}
             alt={"John Ogunjide's picture"}
             width={1000}
             height={1000}
@@ -219,7 +219,7 @@ const Page = () => {
           />
           <div className="flex flex-col items-start justify-center">
             <h4 className="text-primary uppercase font-semibold text-xl md:text-2xl">
-              John Ogunjide
+              Ogunjide John Mayowa
             </h4>
             <h5 className="text-base text-gray-700 mt-1.5">Convener</h5>
             <p className="text-base mt-4">
@@ -234,7 +234,7 @@ const Page = () => {
           </div>
         </div>
         <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-          {organizers.map((organizer, index) => (
+          {soiOrganizers.map((organizer, index) => (
             <Team
               key={index}
               image={organizer.image}

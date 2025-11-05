@@ -15,7 +15,7 @@ export const About = () => {
             Cornerstone International Foundation
           </span>
           , designed to nurture creativity, technology, and entrepreneurship
-          across Africa. Our mission is to empower a generation of changemakers
+          across Africa. Our mission is to empower a generation of change-makers
           by connecting ideas, people, and opportunities that drive sustainable
           impact.
         </p>
