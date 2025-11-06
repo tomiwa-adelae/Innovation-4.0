@@ -599,8 +599,7 @@ export const organizers = [
 
 export const soiOrganizers = [
   {
-    image:
-      "https://res.cloudinary.com/dh0rc6p1c/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1744310251/innovation/organizer/WhatsApp_Image_2025-04-10_at_09.45.59_0ede9c77_dpr33d.jpg",
+    image: "/assets/images/oloyede-joy.jpg",
     name: "Oloyede Joy",
     title: "Head of Programs",
   },
